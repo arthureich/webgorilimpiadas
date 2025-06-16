@@ -32,7 +32,7 @@
         "timeB": "Legendários",
         "resultado": "6 x  4",
         "golsA": "2x Arthur, 2x Pedro, 1x Guilherme, 1x Gabriel Santos",
-        "golsB": "1x Vitor Tiozo"
+        "golsB": "2x Pedro Schreiber, 1x Vinicius, 1x Vitor Tiozo"
       },
       {
         "esporte": "volei",
@@ -101,7 +101,7 @@
       "misto": [
         {"dupla": "Arthur Eich & Helen Kailer", "posicao": 1},
         {"dupla": "Guilherme de Paula & Bianca Andressa", "posicao": 1},
-        {"dupla": "Lais Viana & ", "posicao": 1},
+        {"dupla": "Lais Viana & Lucas Viana", "posicao": 1},
         {"dupla": "Mateus Maia & ", "posicao": 1},
         {"dupla": "Ana Lech & Arthur Garcia", "posicao": 1},
         {"dupla": "Ana Lech & Eduardo Tosatti", "posicao": 1},
@@ -119,7 +119,7 @@
         {"dupla": "Guilherme Altmeyer & Dante Gabriel", "posicao": 1}
       ],
       "feminino": [
-        {"dupla": "Lais Viana & ", "posicao": 1},
+        {"dupla": "Lais Viana & Thaieny", "posicao": 1},
         {"dupla": "Dandarah Oliveira & Gabrielly Oliveira", "posicao": 1},
         {"dupla": "Natalia & Gabi", "posicao": 1},
         {"dupla": "Cris & Helen", "posicao": 1}
