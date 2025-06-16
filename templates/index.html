@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Gorilimpíadas - 2ª Edição</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+    <header>
+        <img src="/static/logo.png" alt="Logo Gorilimpíadas">
+        <h1>Gorilimpíadas - 2ª Edição</h1>
+    </header>
+
+    <nav>
+        <a href="/">Início</a>
+        <a href="/times">Times</a>
+        <a href="/jogos">Jogos</a>
+        <a href="/classificacao">Classificação</a>
+        <a href="/estatisticas">Estatísticas</a>
+        <a href="/individuais">Esportes Individuais</a>
+    </nav>
+
+    <main>
+        
+        <div class="conteudo">
+
+            <div class="descricao">
+                <h2>Sobre as Gorilimpíadas</h2>
+                <p>A Gorilimpíadas está de volta!!! <br>
+                    E melhor do que nunca! <br>
+                    Você esta convidado para participar da copinha interna da gorila, chame seus amigos, se prepare e vá em busca do ouro.</p>
+                <h4>Esportes Disputados:</h4>
+                <ul>
+                    <li>🏐 Vôlei</li>
+                    <li>🏀 Basquete</li>
+                    <li>⚽ Futebol</li>
+                    <li>🏓 Tênis de Mesa</li>
+                    <li>🎾 Tênis</li>
+                    <li>♟️ Xadrez</li>
+                    <li>🏐 Vôlei de Praia</li>
+                </ul>
+            </div>
+
+            <div class="banner">
+                <img src="https://th.bing.com/th/id/OIG4.FxfAl5Tb9TfuenFFPcMc?r=0&pid=ImgGn" alt="Banner Gorilimpíadas" class="banner-img">
+            </div>
+            
+            <div class="jogos">
+                <h2>Próximos Jogos</h2>
+                <div id="proximos-jogos">
+                    <script>
+                        fetch('/static/backend/data.json')
+                            .then(response => response.json())
+                            .then(data => {
+                                const jogosContainer = document.getElementById('proximos-jogos');
+                
+                                if (data.proximos_jogos.length === 0) {
+                                    const aviso = document.createElement('p');
+                                    aviso.textContent = "Nenhum jogo programado.";
+                                    jogosContainer.appendChild(aviso);
+                                } else {
+                                    data.proximos_jogos.forEach(jogo => {
+                                        const jogoElement = document.createElement('p');
+                                        jogoElement.textContent = `${jogo.esporte} | ${jogo.data} - ${jogo.hora} | ${jogo.timeA} vs ${jogo.timeB}`;
+                                        jogosContainer.appendChild(jogoElement);
+                                    });
+                                }
+                            })
+                            .catch(error => console.error('Erro ao carregar os próximos jogos:', error));
+                    </script>
+                </div>
+            </div>
+
+        </div>
+    </main>
+</body>
+    <footer>
+    <h2>&copy; 2025 Atlética V de Novembro</h2>
+    <p>Por: <em>Arthur Eich</em></p>
+    </footer>
+</html>

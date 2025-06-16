@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Jogos - Gorilimpíadas</title>
+    <link rel="stylesheet" href="/static/style2.css">
+</head>
+<body>
+    <header>
+        <img src="/static/logo.png" alt="Logo Gorilimpíadas">
+        <h1>Gorilimpíadas - 2ª Edição</h1>
+    </header>
+
+    <nav class="menu">
+        <a href="/">Início</a>
+        <a href="/times">Times</a>
+        <a href="/jogos">Jogos</a>
+        <a href="/classificacao">Classificação</a>
+        <a href="/estatisticas">Estatísticas</a>
+        <a href="/individuais">Esportes Individuais</a>
+    </nav>
+
+    <main>
+        <h1>Jogos</h1>
+
+        <!-- Barra de dias -->
+        <div class="dias-barra">
+            {% for dia in data.dias %}
+            <button onclick="filtrarJogos('{{ dia }}')">{{ dia }}</button>
+            {% endfor %}
+        </div>
+
+        <!-- Lista de jogos -->
+        <div id="lista-jogos">
+            {% for jogo in data.jogos %}
+            <div class="jogo" data-dia="{{ jogo.data }}">
+                <div class="jogo-topo-central">
+                    <div class = "esporte-hora">
+                        <span class="esporte">
+                            {{ jogo.esporte | capitalize }}
+                            <img src="/static/src/{{ jogo.esporte }}-ball.png" alt="Bola de {{ jogo.esporte }}" class="esporte-bola">
+                        </span>
+                        <span class="hora">{{ jogo.hora }}</span>
+                    </div>
+                </div>
+                <div class="jogo-times">
+                    <div class="time">
+                        <img src="{{ data.logos[jogo.timeA] }}" alt="Logo {{ jogo.timeA }}" class="time-logo">
+                        <div class="nome">{{ jogo.timeA }}</div>
+                        <div class="detalhes">
+                            {% if jogo.esporte == 'futsal' %}
+                                <small>Gols: {{ jogo.golsA }}</small>
+                            {% elif jogo.esporte in ['volei', 'basquete'] %}
+                                <small>Maior pontuador: {{ jogo.maiorA }}</small>
+                            {% endif %}
+                        </div>
+                    </div>
+
+                    <div class="resultado">
+                        <span>{{ jogo.resultado }}</span>
+                    </div>
+
+                    <div class="time">
+                        <img src="{{ data.logos[jogo.timeB] }}" alt="Logo {{ jogo.timeB }}" class="time-logo">
+                        <div class="nome">{{ jogo.timeB }}</div>
+                        <div class="detalhes">
+                            {% if jogo.esporte == 'futsal' %}
+                                <small>Gols: {{ jogo.golsB }}</small>
+                            {% elif jogo.esporte in ['volei', 'basquete'] %}
+                                <small>Maior pontuador: {{ jogo.maiorB }}</small>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </main>
+
+    <footer>
+        &copy; 2025 Atlética Gorila
+    </footer>
+
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        // Get the first day button
+        const firstDayBtn = document.querySelector('.dias-barra button');
+        if (firstDayBtn) {
+            firstDayBtn.click(); // This will call filtrarJogos with the first day
+        }
+    });
+    </script>
+
+    <script>
+        function filtrarJogos(dia) {
+            const jogos = document.querySelectorAll('.jogo');
+            jogos.forEach(jogo => {
+                if (jogo.dataset.dia === dia) {
+                    jogo.style.display = 'block';
+                } else {
+                    jogo.style.display = 'none';
+                }
+            });
+        }
+    </script>
+</body>
+</html>

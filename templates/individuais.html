@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Esportes Individuais - Gorilimpíadas</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <header>
+        <img src="/static/logo.png" alt="Logo Gorilimpíadas">
+        <h1>Gorilimpíadas - 2ª Edição</h1>
+    </header>
+
+    <nav>
+        <a href="/">Início</a>
+        <a href="/times">Times</a>
+        <a href="/jogos">Jogos</a>
+        <a href="/classificacao">Classificação</a>
+        <a href="/estatisticas">Estatísticas</a>
+        <a href="/individuais">Esportes Individuais</a>
+    </nav>
+
+    <main>
+    <section class="meio">
+        <div class="esportes-individuais">
+        <h2>Resultados - Individuais</h2>
+        {% for esporte, resultados in data.individuais.items() %}
+            {% if resultados is mapping %}
+                <div class="categorias-container">
+                    <h3>{{ esporte | replace('_', ' ') | capitalize }}</h3>
+                    {% for categoria, lista in resultados.items() %}
+                        <div class="categoria">
+                            <h4>{{ categoria | capitalize }}</h4>
+                            <table>
+                                <tr>
+                                    <th>{% if lista[0] is defined and lista[0].dupla is defined %}Dupla{% else %}Jogador{% endif %}</th>
+                                    <th>Posição</th>
+                                </tr>
+                                {% for item in lista %}
+                                    <tr>
+                                        <td>{{ item.dupla if item.dupla is defined else item.jogador }}</td>
+                                        <td>{{ item.posicao }}</td>
+                                    </tr>
+                                {% endfor %}
+                            </table>
+                        </div>
+                    {% endfor %}
+                </div>
+            {% else %}
+                <table>
+                    <tr>
+                        <th>Jogador</th>
+                        <th>Posição</th>
+                    </tr>
+                    {% for item in resultados %}
+                        <tr>
+                            <td>{{ item.jogador }}</td>
+                            <td>{{ item.posicao }}</td>
+                        </tr>
+                    {% endfor %}
+                </table>
+            {% endif %}
+        {% endfor %}
+        </div>
+        </div>
+    </section>
+</main>
+
+    <footer>
+        &copy; 2025 Atlética Gorila
+    </footer>
+</body>
+</html>

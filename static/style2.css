@@ -1,0 +1,214 @@
+body {
+    background-color: #a76cdb;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    position: relative;
+    padding-bottom: 150px; /* Adjust based on footer height */
+    box-sizing: border-box;
+}
+
+header {
+    background: linear-gradient(90deg, #6a0dad, #0077ff);
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 25px 20px;
+    border-bottom: 2px solid #444;
+}
+
+header img {
+    height: 50px;
+    margin-right: 15px;
+}
+
+header h1 {
+    color: white;
+    font-size: 2em;
+}
+
+/* ======= Navbar ======= */
+nav {
+    font-size: 21px;
+    padding: 20px 20px;
+    display: flex;
+    gap: 20px;
+    border-bottom: 2px solid #333;
+    background: #6a0dad;
+}
+
+nav a {
+    margin-right: 10px;
+    padding: 3px 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.2s;
+    font-size: 22px;
+}
+
+nav a:hover {
+    background-color: #0077ff;
+    color: white;
+}
+
+
+main {
+    padding: 10px;
+}
+
+main h1 {
+    text-align: center;
+    padding: 1px 1px;
+    margin-top: 12px;
+    margin-bottom: 25px;
+    font-weight: bold;
+    font-size: 70px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(3, 3, 3);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    border-bottom: 2px solid #444;
+    padding-bottom: 2px;
+}
+
+/* Barra de dias */
+.dias-barra {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.dias-barra button {
+    background-color: #1e1e1e;
+    color: white;
+    border: none;
+    padding: 16px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.dias-barra button:hover {
+    background-color: #6f42c1;
+}
+
+/* Card de jogo */
+.jogo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+}
+
+.jogo-topo-central {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.jogo-times {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.jogo-topo .esporte {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-weight: bold;
+    color: #6f42c1;
+}
+
+.esporte-hora {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    background-color: rgba(255,255,255,0.05);
+    padding: 8px 20px;
+    border-radius: 20px;
+}
+
+.esporte {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    color: #ee3434;
+    font-size: 2em;
+}
+
+.esporte img {
+    width: 35px;
+    height: 35px;
+    margin-left: 8px;
+}
+
+.time {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    font-size: 30px;
+}
+
+.time-logo {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* Ajustes para o nome do time */
+.time .nome {
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.time .detalhes {
+    font-size: 0.9em;
+    color: #ccc;
+    margin-top: 4px;
+    text-align: center;
+}
+
+.hora {
+    font-size: 2em;
+    font-weight: bold;
+    color: #f0610e;
+}
+
+.resultado {
+    background-color: #6f42c1;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 2.4em;
+    font-weight: bold;
+    color: white;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: linear-gradient(90deg, #6a0dad, #0077ff);
+    padding: 15px;
+    margin-top: 50px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+

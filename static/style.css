@@ -1,0 +1,522 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #a76cdb; /* Roxo claro */
+    color: white;
+}
+
+/* Header */
+header {
+    background: linear-gradient(90deg, #6a0dad, #0077ff);
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 25px 20px;
+    border-bottom: 2px solid #444;
+}
+
+header img {
+    height: 50px;
+    margin-right: 15px;
+}
+
+header h1 {
+    color: white;
+    font-size: 2em;
+}
+
+/* ======= Navbar ======= */
+nav {
+    font-size: 21px;
+    padding: 20px 20px;
+    display: flex;
+    gap: 20px;
+    border-bottom: 2px solid #333;
+    background: #6a0dad;
+}
+
+nav a {
+    margin-right: 10px;
+    padding: 3px 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.2s;
+    font-size: 22px;
+}
+
+nav a:hover {
+    background-color: #0077ff;
+    color: white;
+}
+
+
+/* Main */
+main {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 20px;
+    background-color: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(10px);
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+
+/* Títulos */
+main h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 70px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(3, 3, 3);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    border-bottom: 2px solid #444;
+    padding-bottom: 2px;
+}
+
+main h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(3, 3, 3);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    border-bottom: 2px solid #444;
+}
+
+
+main label
+{
+    font-weight: bold;
+    color: #000000;
+    font-size: 20px;
+}
+main h3 {
+    margin-top: 5px;
+    color: #ffcc00;
+}
+
+main h4 {
+    margin-top: 15px;
+    color: #000000;
+}
+
+.conteudo {
+    display: flex;
+    width: 100%;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+/* Descrição na esquerda */
+.descricao {
+    flex: 1.5;
+    background-color: #b353f3;
+    opacity: 0.8;
+    padding: 5px 30px;
+    border-radius: 10px;
+    text-align: justify;
+    color: black;
+}
+
+.descricao ul {
+    padding: 0;
+    text-align: center;
+}
+
+.descricao h4 {
+    color: #000000;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 2px;
+}
+
+.descricao h2
+{
+    color: rgb(236, 248, 64);
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #000000;
+}
+
+/* Banner no meio */
+.banner {
+    flex: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    transition: transform 0.3s;
+}
+
+.jogos {
+    opacity: 0.9;
+    flex: 1.5;
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.jogos h2 {
+    color: rgb(236, 248, 64);
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.jogos p {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    padding: 8px;
+    margin-bottom: 8px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.meio {
+    width: 80%;
+    flex-direction: column;
+    flex: 1.5;
+    background-image: linear-gradient(135deg, #6a0dad, #0077ff);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    display: flex;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+.categorias-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 30px;
+    padding: 20px 0px;
+    align-items: flex-start;
+    position: relative;
+    background-image: linear-gradient(135deg, #a332f3, #030c8b);
+}
+
+.categorias-container h3 {
+    flex-basis: 100%;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    order: -1; /* Garante que fique no topo */
+}
+.categoria {
+    flex: 1 1 250px;
+    background: rgba(255,255,255,0.08);
+    border-radius: 10px;
+    padding: 8px;
+    min-width: 220px;
+}
+.categoria h4 {
+    text-align: center;
+    color: #ffda00;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.esportes-individuais h2 {
+    text-align: center;
+    align-items: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+    padding: 5px 0;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(3, 3, 3);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    border-bottom: 2px solid #444;
+}
+
+.esportes-individuais h3 {
+    text-align: center;
+    color: #ffda00;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 5px 0 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 2px;
+}
+
+/* Listas */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 5px 0;
+}
+
+/* Tabelas */
+table {
+    width: 100%;
+    border: 3px solid black;
+    border-collapse: collapse;
+    margin: 1px 0;
+}
+
+table th, table td {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+table th {
+    background-color: #6a0dad;
+}
+
+table tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+table tr:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+
+/* Filtro */
+.filtro {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.1em;
+}
+
+.filtro label {
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+/* Esportes em linha */
+.esportes {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex: auto;
+}
+
+.esporte {
+    background-color: rgba(255, 255, 255, 0.08);
+    border-radius: 12px;
+    padding: 20px;
+    width: calc(25% - 20px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+.esporte-container {
+    margin-top: 10px;
+    background-image: linear-gradient(135deg, #6a0dad, #0077ff);
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.4);
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.esporte-container h2 {
+    text-align: center;
+    color: #ffda00;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 5px 0 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 2px;
+ }
+
+ .esporte-container h3 {
+    text-align: center;
+    color: #ffda00;
+    font-size: 26px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+ }
+
+.esporte h3 {
+    text-align: center;
+    color: #f6fa2a;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 5px 0 10px;
+    text-shadow: 2px 2px 4px rgba(100, 100, 100, 0.5);
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 2px;
+}
+
+.grupos-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+/* Estilo para cada grupo */
+
+.grupo {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    flex: 1 1 300px;
+    background-color: rgba(255, 255, 255, 0.08);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.grupo h4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #ffcc00;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 24px;
+    width: 100%;
+}
+/* Tabelas dentro dos grupos */
+.grupo table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.grupo table th, .grupo table td {
+    border: 1px solid rgba(2, 2, 2, 0.3);
+    padding: 10px;
+    text-align: center;
+    color: rgb(117, 240, 93);
+}
+
+.grupo table th {
+    color: white;
+    background-color: #6a0dad;
+}
+
+.grupo table tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.grupo table tr:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+/* Time */
+.time {
+    color: black;
+    font-size: 20px;
+    background-color: rgba(93, 67, 243, 0.897);
+    opacity: 0.8;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.time-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 15px;
+    cursor: pointer;
+    background-color: rgba(255,255,255,0.05);
+    transition: background-color 0.3s;
+    font-size: 33px;
+}
+
+.time-header:hover {
+    background-color: rgba(255,255,255,0.15);
+}
+
+.time-header img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.time-nome {
+    font-weight: bold;
+}
+
+/* Jogadores */
+.jogadores {
+    padding: 5px 10px;
+    border-top: 1px solid rgba(255,255,255,0.2);
+}
+
+.jogadores p {
+    margin: 3px 0;
+    font-size: 20px;
+    font-style: bold;
+}
+
+.banner img:hover {
+    transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: linear-gradient(90deg, #6a0dad, #0077ff);
+    color: white;
+    margin-top: 40px;
+    border-radius: 10px 10px 0 0;
+}
+footer p {
+    margin-top: 5px;
+}
+/* Responsivo */
+@media (max-width: 768px) {
+    nav {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    main {
+        margin: 20px;
+        padding: 15px;
+    }
+
+    header h1 {
+        font-size: 1.8em;
+    }
+
+    table th, table td {
+        padding: 6px;
+        font-size: 0.9em;
+    }
+}

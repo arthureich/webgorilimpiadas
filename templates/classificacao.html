@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Classificação - Gorilimpíadas</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <header>
+        <img src="/static/logo.png" alt="Logo Gorilimpíadas">
+        <h1>Gorilimpíadas - 2ª Edição</h1>
+    </header>
+
+    <nav>
+        <a href="/">Início</a>
+        <a href="/times">Times</a>
+        <a href="/jogos">Jogos</a>
+        <a href="/classificacao">Classificação</a>
+        <a href="/estatisticas">Estatísticas</a>
+        <a href="/individuais">Esportes Individuais</a>
+    </nav>
+
+    <main>
+        <h2>Tabela de Classificação</h2>
+        {% for esporte, grupos in data.classificacao.items() %}
+        <div class="esporte-container">
+        <h2>{{ esporte | capitalize }}</h2>
+            {% if esporte == 'futsal' %}
+            <div class="grupos-container">
+                {% for grupo, tabela in grupos.items() %}
+                <div class="grupo">
+                    <h3>{{ grupo | capitalize }}</h3>
+                    <table>
+                        <tr>
+                            <th>Time</th>
+                            <th>Jogos</th>
+                            <th>Vitórias</th>
+                            <th>Derrotas</th>
+                            <th>Empates</th>
+                            <th>Pontos</th>
+                        </tr>
+                        {% for item in tabela %}
+                        <tr>
+                            <td>{{ item.time }}</td>
+                            <td>{{ item.jogos }}</td>
+                            <td>{{ item.vitorias }}</td>
+                            <td>{{ item.derrotas }}</td>
+                            <td>{{ item.empates }}</td>
+                            <td>{{ item.pontos }}</td>
+                        </tr>
+                        {% endfor %}
+                    </table>
+                </div>
+                {% endfor %}
+            </div>
+            {% else %}
+                <table>
+                    <tr>
+                        <th>Time</th>
+                        <th>Jogos</th>
+                        <th>Vitórias</th>
+                        <th>Derrotas</th>
+                        <th>Pontos</th>
+                    </tr>
+                    {% for item in grupos %}
+                    <tr>
+                        <td>{{ item.time }}</td>
+                        <td>{{ item.jogos }}</td>
+                        <td>{{ item.vitorias }}</td>
+                        <td>{{ item.derrotas }}</td>
+                        <td>{{ item.pontos }}</td>
+                    </tr>
+                    {% endfor %}
+                </table>
+            {% endif %}
+        </div>
+        {% endfor %}
+    </main>
+
+
+    <footer>
+        &copy; 2025 Atlética Gorila
+    </footer>
+</body>
+</html>

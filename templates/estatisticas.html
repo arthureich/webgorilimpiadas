@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Estatísticas - Gorilimpíadas</title>
+    <link rel="stylesheet" href="/static/style3.css">
+</head>
+<body>
+    <header>
+        <img src="/static/logo.png" alt="Logo Gorilimpíadas">
+        <h1>Gorilimpíadas - 2ª Edição</h1>
+    </header>
+    <nav>
+        <a href="/">Início</a>
+        <a href="/times">Times</a>
+        <a href="/jogos">Jogos</a>
+        <a href="/classificacao">Classificação</a>
+        <a href="/estatisticas">Estatísticas</a>
+        <a href="/individuais">Esportes Individuais</a>
+    </nav>
+
+    <main>
+        <h2>Estatísticas</h2>
+        {% for esporte, estat in data.estatisticas.items() %}
+        <div class="esporte-container">
+            <h3>{{ esporte | capitalize }}</h3>
+            <div class="estatisticas">
+                <div class="tabela">
+                    <h4>{% if esporte == 'futsal' %}Gols{% else %}Pontos{% endif %}</h4>
+                    <table>
+                        <tr>
+                            <th>Jogador</th>
+                            <th>{% if esporte == 'futsal' %}Gols{% else %}Pontos{% endif %}</th>
+                        </tr>
+                        {% for item in estat.gols %}
+                        <tr>
+                            <td>{{ item.jogador }}</td>
+                            <td>{{ item.gols }}</td>
+                        </tr>
+                        {% endfor %}
+                    </table>
+                </div>
+
+                <div class="tabela">
+                    <h4>Assistências</h4>
+                    <table>
+                        <tr>
+                            <th>Jogador</th>
+                            <th>Assistências</th>
+                        </tr>
+                        {% for item in estat.assistencias %}
+                        <tr>
+                            <td>{{ item.jogador }}</td>
+                            <td>{{ item.assistencias }}</td>
+                        </tr>
+                        {% endfor %}
+                    </table>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </main>
+
+    <footer>
+        &copy; 2025 Atlética Gorila
+    </footer>
+</body>
+</html>
