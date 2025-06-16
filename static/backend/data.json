@@ -48,6 +48,16 @@
         "resultado": "2 x  1",
         "maiorA": "Lucas Viana",
         "maiorB": "Caio Eich"
+      }, 
+      {
+        "esporte": "futsal",
+        "data": "Segunda 17/06",
+        "hora": "19:00",
+        "timeA": "Legendários",
+        "timeB": "Funcionários da Bola",
+        "resultado": "5 x 5",
+        "golsA": "2x André, 2x Bonatto",
+        "golsB": "2x Alexandre, 1x Jean, 1x Nathan, 1x Celso"
       }
     ],
     "classificacao": {
@@ -82,6 +92,12 @@
           {"jogador": "Arthur Eich - Donos da Bola", "gols": 2},
           {"jogador": "Dante - Não Sabemos Cruzar IV", "gols": 2},
           {"jogador": "Pedro Schreiber - Legendários", "gols": 2},
+          {"jogador": "André - Legendários", "gols": 2},
+          {"jogador": "Bonatto - Legendários", "gols": 2},
+          {"jogador": "Alexandre - Funcionários da Bola", "gols": 2},
+          {"jogador": "Jean - Funcionários da Bola", "gols": 1},
+          {"jogador": "Celso - Funcionários da Bola", "gols": 1},
+          {"jogador": "Nathan - Funcionários da Bola", "gols": 1},
           {"jogador": "Pedro - Donos da Bola", "gols": 2},
           {"jogador": "Guilherme de Paula - Donos da Bola", "gols": 1},
           {"jogador": "Gabriel Bruno - Donos da Bola", "gols": 1},
@@ -93,8 +109,12 @@
           {"jogador": "Guilherme de Paula - Donos da Bola", "assistencias": 3},
           {"jogador": "Caio Eich - Donos da Bola", "assistencias": 2},
           {"jogador": "Guilherme Altmeyer - Não Sabemos Cruzar IV", "assistencias": 2},
+          {"jogador": "Pedro Schreiber - Legendários", "assistencias": 2},
+          {"jogador": "Arthur Garcia - Legendários", "assistencias": 2},
+          {"jogador": "Celso - Funcionários da Bola", "assistencias": 2},
           {"jogador": "Arthur Eich - Donos da Bola", "assistencias": 1},
-          {"jogador": "Arthur Garcia - Legendários", "assistencias": 1},
+          {"jogador": "Dante - Não Sabemos Cruzar IV", "assistencias": 1},
+          {"jogador": "Alexandre - Funcionários da Bola", "assistencias": 1},
           {"jogador": "Guilherme Reolon - Não Sabemos Cruzar IV", "assistencias": 1},
           {"jogador": "Vitor Tiozo - Comuna Neres", "assistencias": 1},
           {"jogador": "Vitor Krieser - Não Sabemos Cruzar IV", "assistencias": 1}
@@ -156,7 +176,7 @@
       "Legio Macedonica": "/static/src/zmb2.png",
       "Gaviões da Fiel": "/static/src/gdf.png",
       "Peixão": "/static/src/px.png",
-      "Unioeste FC": "/static/src/logo.png",
+      "Funcionários da Bola": "/static/src/logo.png",
       "Agregados FC": "/static/src/agregados.png",
       "Chicago Burros": "/static/src/cbrr.png",
       "Balançada Tropical": "/static/src/blc.png",
@@ -231,7 +251,7 @@
         ]
       },
       {
-        "nome": "Unioeste FC",
+        "nome": "Funcionários da Bola",
         "img": "/static/src/logo.png",
         "jogadores": [
           "Fausto", "Alexandre Carissimi", "Paulo Henrique",
