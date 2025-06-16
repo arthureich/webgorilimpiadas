@@ -38,7 +38,7 @@
                     <div class = "esporte-hora">
                         <span class="esporte">
                             {{ jogo.esporte | capitalize }}
-                            <img src="/static/src/{{ jogo.esporte }}-ball.png" alt="Bola de {{ jogo.esporte }}" class="esporte-bola">
+                            <img src="{{ data.esportes[jogo.esporte] }}" alt="Bola de {{ jogo.esporte }}" class="esporte-bola">
                         </span>
                         <span class="hora">{{ jogo.hora }}</span>
                     </div>

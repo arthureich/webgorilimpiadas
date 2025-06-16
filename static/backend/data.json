@@ -13,6 +13,11 @@
         "Sábado 22/06",
         "Domingo 23/06"
     ],
+    "esportes":  {
+        "futsal": "/static/src/FUTSAL-ball.png",
+        "volei": "/static/src/VOLEI-ball.png",
+        "basquete": "/static/src/BASQUETE-ball.png"
+    },  
     "jogos": [
       {
         "esporte": "futsal",
