@@ -6,6 +6,7 @@
 }
 
 body {
+    zoom: 0.8;
     background-color: #b78be4;
     font-family: Arial, sans-serif;
     color: white;

@@ -6,6 +6,7 @@
 }
 
 body {
+    zoom: 0.8;
     font-family: 'Segoe UI', Arial, sans-serif;
     background-color: #a76cdb; /* Roxo claro */
     color: white;

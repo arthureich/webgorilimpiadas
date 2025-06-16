@@ -1,4 +1,5 @@
 body {
+    zoom: 0.8;
     background-color: #a76cdb;
     color: white;
     font-family: Arial, sans-serif;
@@ -11,6 +12,7 @@ body {
 }
 
 header {
+    
     background: linear-gradient(90deg, #6a0dad, #0077ff);
     color: white;
     display: flex;
