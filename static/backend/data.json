@@ -66,9 +66,9 @@
             "grupoA": [
                 {"time": "Donos da Bola", "jogos": 1, "vitorias": 1, "derrotas": 0, "empates": 0, "pontos": 3},
                 {"time": "Legio Augusta", "jogos": 0, "vitorias": 0, "derrotas": 0, "empates": 0, "pontos": 0},
-                {"time": "Funcionários da Bola", "jogos": 0, "vitorias": 0, "derrotas": 0, "empates": 0, "pontos": 0},
+                {"time": "Funcionários da Bola", "jogos": 1, "vitorias": 0, "derrotas": 0, "empates": 1, "pontos": 1},
                 {"time": "Gaviões da Fiel", "jogos": 0, "vitorias": 0, "derrotas": 0, "empates": 0, "pontos": 0},
-                {"time": "Legendários", "jogos": 1, "vitorias": 0, "derrotas": 1, "empates": 0, "pontos": 0}
+                {"time": "Legendários", "jogos": 2, "vitorias": 0, "derrotas": 1, "empates": 1, "pontos": 1}
             ],
             "grupoB": [
                 {"time": "Não Sabemos Cruzar IV", "jogos": 1, "vitorias": 1, "derrotas": 0, "empates": 0, "pontos": 3},
