@@ -65,7 +65,7 @@
             "grupoA": [
                 {"time": "Donos da Bola", "jogos": 1, "vitorias": 1, "derrotas": 0, "empates": 0, "pontos": 3},
                 {"time": "Legio Augusta", "jogos": 0, "vitorias": 0, "derrotas": 0, "empates": 0, "pontos": 0},
-                {"time": "Unioeste FC", "jogos": 0, "vitorias": 0, "derrotas": 0, "empates": 0, "pontos": 0},
+                {"time": "Funcionários da Bola", "jogos": 0, "vitorias": 0, "derrotas": 0, "empates": 0, "pontos": 0},
                 {"time": "Gaviões da Fiel", "jogos": 0, "vitorias": 0, "derrotas": 0, "empates": 0, "pontos": 0},
                 {"time": "Legendários", "jogos": 1, "vitorias": 0, "derrotas": 1, "empates": 0, "pontos": 0}
             ],
@@ -178,13 +178,13 @@
     "logos": {
       "Donos da Bola": "/static/src/ddb.png",
       "Comuna Neres": "/static/src/cmn.png",
-      "Legendários": "/static/src/logo.png",
+      "Legendários": "/static/src/lgnd.png",
       "Não Sabemos Cruzar IV": "/static/src/idv.png",
       "Legio Augusta": "/static/src/zmb1.png",
       "Legio Macedonica": "/static/src/zmb2.png",
       "Gaviões da Fiel": "/static/src/gdf.png",
       "Peixão": "/static/src/px.png",
-      "Funcionários da Bola": "/static/src/logo.png",
+      "Funcionários da Bola": "/static/src/unio.png",
       "Agregados FC": "/static/src/agregados.png",
       "Chicago Burros": "/static/src/cbrr.png",
       "Balançada Tropical": "/static/src/blc.png",
@@ -212,7 +212,7 @@
       },
       {
         "nome": "Legendários",
-        "img": "/static/src/logo.png",
+        "img": "/static/src/lgnd.png",
         "jogadores": [
           "Pedro Schreiber", "Mateus Schreiber", "Arthur Garcia",
           "Felipe Lisboa", "Pheterson Bonatto", "Vinicius"
@@ -260,7 +260,7 @@
       },
       {
         "nome": "Funcionários da Bola",
-        "img": "/static/src/logo.png",
+        "img": "/static/src/unio.png",
         "jogadores": [
           "Fausto", "Alexandre Carissimi", "Paulo Henrique",
           "Nathan Henrique", "Jean Toillier", "Celso Polinarski"
