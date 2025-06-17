@@ -509,7 +509,7 @@ footer p {
     }
 
     main {
-        padding: 15px;
+        padding: 0px;
     }
 
     header h1 {
@@ -528,6 +528,10 @@ footer p {
 @media (max-width: 768px) {
     body {
         zoom: 1; /* NUNCA usar zoom em mobile */
+    }
+
+    main {
+        padding: 0px;
     }
 
     header {
@@ -581,11 +585,10 @@ footer p {
     }
 
     .esporte-container {
-        width: 95%;
+        width: 100%;
         margin-top: 10px;
         border-radius: 12px;
         box-shadow: 0 0 15px rgba(0,0,0,0.4);
-        padding: 20px;
         margin-bottom: 20px;
     }
     

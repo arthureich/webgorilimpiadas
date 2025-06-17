@@ -165,6 +165,10 @@ footer {
 
 @media (max-width: 768px) {
 
+    body {
+        zoom: 1; /* NUNCA usar zoom em mobile */
+    }
+
     header {
         flex-direction: column;
         text-align: center;
@@ -172,8 +176,8 @@ footer {
     }
 
     header img {
-        height: 50px;
         margin: 0;
+        height: 50px;
     }
 
     header h1 {
@@ -181,17 +185,23 @@ footer {
     }
 
     nav {
+        flex-wrap: wrap;
+        justify-content: center;
         gap: 10px;
         padding: 10px;
     }
 
     nav a {
-        font-size: 14px;
-        padding: 5px 10px;
+        font-size: 16px;
+        padding: 5px 8px;
+    }
+
+    main h1 {
+        font-size: 40px;
     }
 
     main h2 {
-        font-size: 35px;
+        font-size: 28px;
     }
 
     .estatisticas {
