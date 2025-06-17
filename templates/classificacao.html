@@ -41,7 +41,7 @@
                             <th>Empates</th>
                             <th>Pontos</th>
                         </tr>
-                        {% for item in tabela %}
+                        {% for item in tabela|sort(attribute='pontos', reverse=True) %}
                         <tr>
                             <td>{{ item.time }}</td>
                             <td>{{ item.jogos }}</td>
