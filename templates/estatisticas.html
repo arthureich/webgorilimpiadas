@@ -34,7 +34,7 @@
                             <th>Jogador</th>
                             <th>{% if esporte == 'futsal' %}Gols{% else %}Pontos{% endif %}</th>
                         </tr>
-                        {% for item in estat.gols %}
+                        {% for item in estat.gols |sort(attribute='gols', reverse=True) %}
                         <tr>
                             <td>{{ item.jogador }}</td>
                             <td>{{ item.gols }}</td>
@@ -51,7 +51,7 @@
                             <th>Jogador</th>
                             <th>Assistências</th>
                         </tr>
-                        {% for item in estat.assistencias %}
+                        {% for item in estat.assistencias |sort(attribute='assistencias', reverse=True) %}
                         <tr>
                             <td>{{ item.jogador }}</td>
                             <td>{{ item.assistencias }}</td>

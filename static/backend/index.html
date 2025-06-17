@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Adicionar Jogo</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <style>
+        body {background: #a76cdb; padding: 20px; color: white;}
+        label {display: block; margin-top: 10px;}
+        input, select, textarea {
+            width: 100%;
+            padding: 8px;
+            border-radius: 8px;
+            border: none;
+            margin-top: 4px;
+        }
+        button {
+            margin-top: 15px;
+            padding: 10px 20px;
+            background: #0077ff;
+            border: none;
+            color: white;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+        button:hover {background: #005fcc;}
+        h1 {text-align: center;}
+    </style>
+</head>
+<body>
+    <h1>➕ Adicionar Jogo</h1>
+
+    <form method="post" action="/api/add_jogo">
+        <label>Esporte
+            <select name="esporte">
+                <option value="futsal">Futsal</option>
+                <option value="volei">Vôlei</option>
+                <option value="basquete">Basquete</option>
+            </select>
+        </label>
+
+        <label>Data
+            <input type="text" name="data" placeholder="Ex: Sábado 15/06">
+        </label>
+
+        <label>Hora
+            <input type="time" name="hora">
+        </label>
+
+        <label>Time A
+            <input type="text" name="timeA" placeholder="Nome do Time A">
+        </label>
+
+        <label>Time B
+            <input type="text" name="timeB" placeholder="Nome do Time B">
+        </label>
+
+        <label>Resultado
+            <input type="text" name="resultado" placeholder="Ex: 5x4">
+        </label>
+
+        <label>Gols/Pontos Time A
+            <input type="text" name="golsA" placeholder="Ex: 2x João, 1x Maria">
+        </label>
+
+        <label>Gols/Pontos Time B
+            <input type="text" name="golsB" placeholder="Ex: 1x Carlos">
+        </label>
+
+        <button type="submit">💾 Salvar Jogo</button>
+    </form>
+</body>
+</html>

@@ -64,7 +64,7 @@
                         <th>Derrotas</th>
                         <th>Pontos</th>
                     </tr>
-                    {% for item in grupos %}
+                    {% for item in grupos|sort(attribute='pontos', reverse=True) %}
                     <tr>
                         <td>{{ item.time }}</td>
                         <td>{{ item.jogos }}</td>

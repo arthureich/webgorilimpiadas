@@ -1,16 +1,17 @@
 
-from fastapi import FastAPI, Request, HTTPException
-from fastapi.responses import HTMLResponse
+from fastapi import FastAPI, Form, Request, HTTPException
+from fastapi.responses import HTMLResponse, RedirectResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
 import json, os
 
-app = FastAPI()
-
-app.mount("/static", StaticFiles(directory="static"), name="static")
-templates = Jinja2Templates(directory="templates")
-
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+app = FastAPI()
+app.mount("/static", StaticFiles(directory=os.path.join(BASE_DIR, "..")), name="static")
+templates = Jinja2Templates(directory=os.path.join(BASE_DIR, "..", "templates"))
+
+
+
 DATA_FILE = os.path.join(BASE_DIR, "data.json")
 
 def load_data():
@@ -68,3 +69,12 @@ def add_estatistica(esporte: str, estat: dict):
         data["estatisticas"][esporte]["assistencias"].append(estat["assistencias"])
     save_data(data)
     return {"message": "Estatística atualizada", "estatisticas": data["estatisticas"][esporte]}
+
+@app.post("/api/save_json")
+def save_json(request: Request, content: str = Form(...)):
+    try:
+        json_data = json.loads(content)
+        save_data(json_data)
+        return RedirectResponse(url="/", status_code=303)
+    except Exception as e:
+        raise HTTPException(status_code=400, detail=str(e))
