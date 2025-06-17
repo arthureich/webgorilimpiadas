@@ -109,7 +109,8 @@ main h3 {
 }
 
 main h4 {
-    margin-top: 15px;
+    margin-bottom: 5px;
+    margin-top: 1px;
     color: #000000;
 }
 
@@ -124,7 +125,6 @@ main h4 {
 .descricao {
     flex: 1.5;
     background-color: #b353f3;
-    opacity: 0.8;
     padding: 5px 30px;
     border-radius: 10px;
     text-align: justify;
@@ -260,7 +260,7 @@ main h4 {
     color: #ffda00;
     font-size: 30px;
     font-weight: bold;
-    margin: 5px 0 10px;
+    margin: 1px 1px 1px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     font-family: 'Courier New', Courier, monospace;
     letter-spacing: 2px;
@@ -567,6 +567,14 @@ footer p {
         font-size: 40px;
     }
 
+    .esportes-individuais h2 {
+        font-size: 30px;
+        margin-top: 1px;
+    }
+    .meio {
+        width: 100%;
+        padding: 10px 10px;
+    }
     main h2 {
         font-size: 28px;
         margin-top: 15px;
@@ -574,13 +582,37 @@ footer p {
 
     /* Quebra layout lateral para empilhar */
     .conteudo {
+        gap: 13px;
+        margin-top: 10px;
         flex-direction: column;
         align-items: center;
     }
 
+    .jogos {
+        order: -1; /* Vai para o topo no mobile */
+    }
+
+    .banner {
+        order: 0; /* Fica no meio */
+    }
+
+    .descricao {
+        order: 1; /* Vai para baixo */
+    }
+    .descricao ul {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+    }
+
+    .descricao h2 {
+        font-size: 24px;
+        color: #ffda00;
+    }
+    .descricao h4 {
+        margin-top: 8px;
+    }
     .descricao, .banner, .jogos {
         width: 95%;
-        margin-bottom: 20px;
     }
 
     .banner-img {
