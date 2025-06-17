@@ -27,7 +27,7 @@
         "timeA": "Não Sabemos Cruzar IV",
         "timeB": "Comuna Neres",
         "resultado": "4 x 1",
-        "golsA": "2x Dante, 1x Altmeyer, 1x Kauan",
+        "golsA": "2x Dante, 1x Altmeyer, 1x Gui Reolon",
         "golsB": "1x Vitor Tiozo"
       },
       {
@@ -38,7 +38,7 @@
         "timeB": "Legendários",
         "resultado": "6 x  4",
         "golsA": "2x Arthur, 2x Pedro, 1x Guilherme, 1x Gabriel Santos",
-        "golsB": "2x Pedro Schreiber, 1x Vinicius, 1x Vitor Tiozo"
+        "golsB": "2x Pedro Schreiber, 1x Vinicius"
       },
       {
         "esporte": "volei",
@@ -73,7 +73,7 @@
             "grupoB": [
                 {"time": "Não Sabemos Cruzar IV", "jogos": 1, "vitorias": 1, "derrotas": 0, "empates": 0, "pontos": 3},
                 {"time": "Peixao", "jogos": 0, "vitorias": 0, "derrotas": 0, "empates": 0, "pontos": 0},
-                {"time": "Gaviões da Fiel", "jogos": 0, "vitorias": 0, "derrotas": 0, "empates": 0, "pontos": 0},
+                {"time": "Legio Macedonica", "jogos": 0, "vitorias": 0, "derrotas": 0, "empates": 0, "pontos": 0},
                 {"time": "Agregados FC", "jogos": 0, "vitorias": 0, "derrotas": 0, "empates": 0, "pontos": 0},
                 {"time": "Comuna Neres", "jogos": 1, "vitorias": 0, "derrotas": 1, "empates": 0, "pontos": 0}
             ]
