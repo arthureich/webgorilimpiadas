@@ -213,4 +213,74 @@ footer {
     width: 100%;
 }
 
+/* Responsivo para mobile */
+@media (max-width: 800px) {
+    main, .conteudo, .esporte-container, .grupos-container, .categorias-container {
+        max-width: 98vw;
+        width: 100%;
+        padding: 0 2vw;
+        box-sizing: border-box;
+    }
 
+
+    .resultado {
+    margin-bottom: 160px;
+    background-color: #6f42c1;
+    padding: 5px 5px;
+    border-radius: 10px;
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+    }
+
+    .grupos-container,
+    .categorias-container {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .grupo,
+    .categoria {
+        min-width: unset;
+        width: 100%;
+    }
+
+    header {
+        flex-direction: column;
+        text-align: center;
+        padding: 10px;
+    }
+
+    header img {
+        margin: 0;
+        height: 50px;
+    }
+
+    header h1 {
+        font-size: 1.5em;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    nav a {
+        font-size: 16px;
+        padding: 5px 8px;
+    }
+
+    table th, table td {
+        padding: 6px;
+        font-size: 14px;
+    }
+}
+
+/* Limite de largura máxima para desktop */
+main, .conteudo, .esporte-container, .grupos-container, .categorias-container {
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}

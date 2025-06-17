@@ -336,11 +336,12 @@ table tr:hover {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 .esporte-container {
+    width: 80%;
     margin-top: 10px;
     background-image: linear-gradient(135deg, #6a0dad, #0077ff);
     border-radius: 12px;
     box-shadow: 0 0 15px rgba(0,0,0,0.4);
-    padding: 10px;
+    padding: 20px;
     margin-bottom: 20px;
 }
 
@@ -508,7 +509,6 @@ footer p {
     }
 
     main {
-        margin: 20px;
         padding: 15px;
     }
 
@@ -519,5 +519,131 @@ footer p {
     table th, table td {
         padding: 6px;
         font-size: 0.9em;
+    }
+}
+
+/* ======================= */
+/* RESPONSIVIDADE MOBILE */
+/* ======================= */
+@media (max-width: 768px) {
+    body {
+        zoom: 1; /* NUNCA usar zoom em mobile */
+    }
+
+    header {
+        flex-direction: column;
+        text-align: center;
+        padding: 10px;
+    }
+
+    header img {
+        margin: 0;
+        height: 50px;
+    }
+
+    header h1 {
+        font-size: 1.5em;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    nav a {
+        font-size: 16px;
+        padding: 5px 8px;
+    }
+
+    main h1 {
+        font-size: 40px;
+    }
+
+    main h2 {
+        font-size: 28px;
+    }
+
+    /* Quebra layout lateral para empilhar */
+    .conteudo {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .descricao, .banner, .jogos {
+        width: 95%;
+        margin-bottom: 20px;
+    }
+
+    .banner-img {
+        max-width: 100%;
+    }
+
+    .esporte-container {
+        width: 95%;
+        margin-top: 10px;
+        border-radius: 12px;
+        box-shadow: 0 0 15px rgba(0,0,0,0.4);
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .grupo table {
+        max-width: 20px;
+        font-size: 14px;
+    }
+
+    .grupo table th, .grupo table td {
+        padding: 4px;
+    }
+
+    /* Diminui a largura de todas as colunas exceto a primeira */
+    .grupo table td:not(:first-child),
+    .grupo table th:not(:first-child) {
+        width: 55px;
+        min-width: 30px;
+        max-width: 60px;
+        text-align: center;
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+
+    .categorias-container {
+        gap: 15px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .esportes {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .esporte {
+        width: 90%;
+    }
+
+    .grupo {
+        width: 95%;
+    }
+
+    .time-header {
+        font-size: 24px;
+        gap: 10px;
+    }
+
+    .time-header img {
+        width: 60px;
+        height: 60px;
+    }
+
+    table th, table td {
+        font-size: 14px;
+        padding: 5px;
+    }
+
+    footer {
+        padding: 8px;
     }
 }
