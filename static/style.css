@@ -87,7 +87,7 @@ main h1 {
 
 main h2 {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     font-weight: bold;
     font-size: 35px;
     font-family: 'Courier New', Courier, monospace;
@@ -278,10 +278,11 @@ ul li {
 
 /* Tabelas */
 table {
-    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
     border: 3px solid black;
     border-collapse: collapse;
-    margin: 1px 0;
 }
 
 table th, table td {
@@ -340,8 +341,9 @@ table tr:hover {
     margin-top: 10px;
     background-image: linear-gradient(135deg, #6a0dad, #0077ff);
     border-radius: 12px;
+    align-items: center;
     box-shadow: 0 0 15px rgba(0,0,0,0.4);
-    padding: 20px;
+    padding: 20px 0px;
     margin-bottom: 20px;
 }
 
@@ -509,7 +511,7 @@ footer p {
     }
 
     main {
-        padding: 0px;
+        padding: 15px 0px;
     }
 
     header h1 {
@@ -567,6 +569,7 @@ footer p {
 
     main h2 {
         font-size: 28px;
+        margin-top: 15px;
     }
 
     /* Quebra layout lateral para empilhar */
