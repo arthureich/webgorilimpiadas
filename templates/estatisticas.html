@@ -41,6 +41,7 @@
                     </table>
                 </div>
 
+                {% if esporte == 'futsal' %}
                 <div class="tabela">
                     <h4>Assistências</h4>
                     <table>
@@ -56,6 +57,7 @@
                         {% endfor %}
                     </table>
                 </div>
+                {% endif %}
             </div>
         </div>
         {% endfor %}
