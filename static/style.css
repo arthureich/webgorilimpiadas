@@ -633,7 +633,7 @@ footer p {
     }
 
     .grupo table th, .grupo table td {
-        padding: 4px;
+        padding: 2px;
     }
 
     /* Diminui a largura de todas as colunas exceto a primeira */
@@ -677,7 +677,7 @@ footer p {
     }
 
     table th, table td {
-        font-size: 14px;
+        font-size: 12px;
         padding: 5px;
     }
 
