@@ -62,9 +62,71 @@
                                     jogosContainer.appendChild(aviso);
                                 } else {
                                     data.proximos_jogos.forEach(jogo => {
-                                        const jogoElement = document.createElement('p');
-                                        jogoElement.textContent = `${jogo.esporte} | ${jogo.data} - ${jogo.hora} | ${jogo.timeA} vs ${jogo.timeB}`;
-                                        jogosContainer.appendChild(jogoElement);
+                                        // Escolhe o emoji da bola conforme o esporte
+                                        let esporteEmoji = '';
+                                        switch (jogo.esporte.toLowerCase()) {
+                                            case 'vôlei':
+                                            case 'vôlei de praia':
+                                                esporteEmoji = '🏐';
+                                                break;
+                                            case 'basquete':
+                                                esporteEmoji = '🏀';
+                                                break;
+                                            case 'futsal':
+                                                esporteEmoji = '⚽';
+                                                break;
+                                            case 'tênis de mesa':
+                                                esporteEmoji = '🏓';
+                                                break;
+                                            case 'tênis':
+                                                esporteEmoji = '🎾';
+                                                break;
+                                            case 'xadrez':
+                                                esporteEmoji = '♟️';
+                                                break;
+                                            default:
+                                                esporteEmoji = '🎯';
+                                        }
+
+                                        // Cria o card do jogo
+                                        const jogoCard = document.createElement('div');
+                                        jogoCard.style.display = 'flex';
+                                        jogoCard.style.alignItems = 'center';
+                                        jogoCard.style.gap = '12px';
+                                        jogoCard.style.borderRadius = '10px';
+                                        jogoCard.style.margin = '10px 0';
+                                        jogoCard.style.padding = '10px 16px';
+                                        jogoCard.style.boxShadow = '0 2px 8px #0001';
+
+                                        // Emoji da bola
+                                        const emojiDiv = document.createElement('div');
+                                        emojiDiv.style.fontSize = '2.2rem';
+                                        emojiDiv.textContent = esporteEmoji;
+
+                                        // Infos do jogo
+                                        const infoDiv = document.createElement('div');
+                                        infoDiv.style.display = 'flex';
+                                        infoDiv.style.flexDirection = 'column';
+
+                                        // Hora em cima
+                                        const horaSpan = document.createElement('span');
+                                        horaSpan.textContent = `${jogo.data} - ${jogo.hora}`;
+                                        horaSpan.style.fontWeight = 'bold';
+                                        horaSpan.style.fontSize = '1.1rem';
+
+                                        // Times embaixo
+                                        const timesSpan = document.createElement('span');
+                                        timesSpan.textContent = `${jogo.timeA} vs ${jogo.timeB}`;
+                                        timesSpan.style.fontSize = '1rem';
+                                        timesSpan.style.marginTop = '2px';
+
+                                        infoDiv.appendChild(horaSpan);
+                                        infoDiv.appendChild(timesSpan);
+
+                                        jogoCard.appendChild(emojiDiv);
+                                        jogoCard.appendChild(infoDiv);
+
+                                        jogosContainer.appendChild(jogoCard);
                                     });
                                 }
                             })
