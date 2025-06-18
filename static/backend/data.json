@@ -197,11 +197,11 @@
     },
     "proximos_jogos": [
       {
-          "esporte": "volei",
-          "data": "Quarta 18/06",
-          "hora": "23:00",
-          "timeA": "Sereias Volei Club",
-          "timeB": "Ardigirls"
+        "esporte": "volei",
+        "data": "Quarta 18/06",
+        "hora": "23:00",
+        "timeA": "Sereias Volei Club",
+        "timeB": "Ardigirls"
       },
       {
         "esporte": "futsal",
@@ -225,7 +225,10 @@
       "Chicago Burros": "/static/src/cbrr.png",
       "Balançada Tropical": "/static/src/blc.png",
       "Astecas": "/static/src/ast.png",
-      "Sokinada": "/static/src/logo.png",
+      "Sokinada": "/static/src/lgnd.png",
+      "Sereias Volei Club": "static/src/lais.png",
+      "Ardigirls": "static/src/ard.png",
+      "Gorigirls": "static/src/logo.png",
       "Gorila": "/static/src/glr.png"
     },
     "jogadores_times": [
