@@ -1,11 +1,13 @@
 body {
+    min-height: 116vh;
+    display: flex;
+    flex-direction: column;
     zoom: 0.8;
     background-color: #a76cdb;
     color: white;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    min-height: 100vh;
     position: relative;
     padding-bottom: 150px; /* Adjust based on footer height */
 }
@@ -57,6 +59,7 @@ nav a:hover {
 
 
 main {
+    flex: 1;
     padding: 10px;
 }
 
@@ -216,6 +219,7 @@ footer {
 
 /* Responsivo para mobile */
 @media (max-width: 800px) {
+    
     main, .conteudo, .esporte-container, .grupos-container, .categorias-container {
         max-width: 98vw;
         width: 100%;
