@@ -11,6 +11,7 @@
         "Sábado 14/06",
         "Domingo 15/06",
         "Segunda 16/06",
+        "Quarta 18/06",
         "Quinta 19/06",
         "Sábado 21/06",
         "Domingo 22/06"
@@ -60,7 +61,7 @@
         "resultado": "5 x 5",
         "golsA": "2x André, 2x Bonatto",
         "golsB": "2x Alexandre, 1x Jean, 1x Nathan, 1x Celso"
-      },
+      },        
       {
         "esporte": "futsal",
         "data": "Quinta 19/06",
@@ -195,6 +196,13 @@
       }
     },
     "proximos_jogos": [
+      {
+          "esporte": "volei",
+          "data": "Quarta 18/06",
+          "hora": "23:00",
+          "timeA": "Sereias Volei Club",
+          "timeB": "Ardigirls"
+      }
       {
         "esporte": "futsal",
         "data": "Quinta 19/06",
