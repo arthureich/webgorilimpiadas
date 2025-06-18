@@ -477,11 +477,13 @@ table tr:hover {
 
 /* Jogadores */
 .jogadores {
+    text-align: center;
     padding: 5px 10px;
     border-top: 1px solid rgba(255,255,255,0.2);
 }
 
 .jogadores p {
+    border-bottom: 1px solid rgba(255,255,255,0.2);
     margin: 3px 0;
     font-size: 20px;
     font-style: bold;
@@ -665,6 +667,20 @@ footer p {
     .grupo {
         width: 95%;
     }
+
+    .time {
+        opacity: 1;
+        width: 100%;
+        padding: 5px;
+        border-radius: 12px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .card:active {
+    transform: scale(0.97);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
 
     .time-header {
         font-size: 24px;
