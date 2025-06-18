@@ -8,11 +8,12 @@
       "Basket Gorila": ["Ana", "Bruno"]
     },
     "dias": [
-        "Sábado 15/06",
-        "Domingo 16/06",
+        "Sábado 14/06",
+        "Domingo 15/06",
         "Segunda 17/06",
-        "Sábado 22/06",
-        "Domingo 23/06"
+        "Quinta 19/06",
+        "Sábado 21/06",
+        "Domingo 22/06"
     ],
     "esportes":  {
         "futsal": "/static/src/FUTSAL-ball.png",
@@ -22,7 +23,7 @@
     "jogos": [
       {
         "esporte": "futsal",
-        "data": "Sábado 15/06",
+        "data": "Sábado 14/06",
         "hora": "14:00",
         "timeA": "Não Sabemos Cruzar IV",
         "timeB": "Comuna Neres",
@@ -32,7 +33,7 @@
       },
       {
         "esporte": "futsal",
-        "data": "Sábado 15/06",
+        "data": "Sábado 14/06",
         "hora": "15:00",
         "timeA": "Donos da Bola",
         "timeB": "Legendários",
@@ -42,7 +43,7 @@
       },
       {
         "esporte": "volei",
-        "data": "Domingo 16/06",
+        "data": "Domingo 15/06",
         "hora": "14:00",
         "timeA": "Astecas",
         "timeB": "Donos da Bola",
@@ -52,13 +53,23 @@
       }, 
       {
         "esporte": "futsal",
-        "data": "Segunda 17/06",
+        "data": "Segunda 16/06",
         "hora": "19:00",
         "timeA": "Legendários",
         "timeB": "Funcionários da Bola",
         "resultado": "5 x 5",
         "golsA": "2x André, 2x Bonatto",
         "golsB": "2x Alexandre, 1x Jean, 1x Nathan, 1x Celso"
+      },
+      {
+        "esporte": "futsal",
+        "data": "Quinta 19/06",
+        "hora": "22:00",
+        "timeA": "Donos da Bola",
+        "timeB": "Legio Augusta",
+        "resultado": " x ",
+        "golsA": "",
+        "golsB": ""
       }
     ],
     "classificacao": {
