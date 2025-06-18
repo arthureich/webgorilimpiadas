@@ -8,7 +8,6 @@ body {
     min-height: 100vh;
     position: relative;
     padding-bottom: 150px; /* Adjust based on footer height */
-    box-sizing: border-box;
 }
 
 header {
