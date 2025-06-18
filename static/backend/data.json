@@ -195,6 +195,13 @@
       }
     },
     "proximos_jogos": [
+      {
+        "esporte": "futsal",
+        "data": "Quinta 19/06",
+        "hora": "22:00",
+        "timeA": "Donos da Bola",
+        "timeB": "Legio Augusta"
+      }
     ],
     "logos": {
       "Donos da Bola": "/static/src/ddb.png",
