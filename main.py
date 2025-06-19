@@ -1,5 +1,6 @@
 from fastapi import FastAPI, Request
 from fastapi.responses import HTMLResponse
+from pydantic import BaseModel
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
 import json
@@ -33,11 +34,38 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+
+# 🔹 Modelo dos Jogos
+class Jogo(BaseModel):
+    hora: str
+    data: str
+    dia: str
+    esporte: str
+    timeA: str
+    timeB: str
+
+# 🔹 Caminho do JSON
+DATA_FILE = os.path.join("static", "backend", "data.json")
+
+# 🔸 GET - Buscar Jogos
 @app.get("/api/proximos-jogos")
 def get_proximos_jogos():
-    with open("static/backend/data.json", "r", encoding="utf-8") as file:
+    with open(DATA_FILE, "r", encoding="utf-8") as file:
         data = json.load(file)
     return data.get("proximos_jogos", [])
+
+# 🔸 POST - Adicionar Jogo
+@app.post("/api/proximos-jogos")
+def post_proximos_jogos(jogo: Jogo):
+    with open(DATA_FILE, "r+", encoding="utf-8") as file:
+        data = json.load(file)
+        if "proximos_jogos" not in data:
+            data["proximos_jogos"] = []
+        data["proximos_jogos"].append(jogo.dict())
+        file.seek(0)
+        json.dump(data, file, ensure_ascii=False, indent=4)
+        file.truncate()
+    return {"message": "Jogo adicionado com sucesso!", "jogo": jogo}
 
 
 # Rotas principais

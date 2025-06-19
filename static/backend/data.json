@@ -1,11 +1,25 @@
 {
     "times": {
-      "futebol": ["Gorilas FC", "Time B", "Time C"],
-      "basquete": ["Basket Gorila", "Time X"]
+        "futebol": [
+            "Gorilas FC",
+            "Time B",
+            "Time C"
+        ],
+        "basquete": [
+            "Basket Gorila",
+            "Time X"
+        ]
     },
     "jogadores": {
-      "Gorilas FC": ["João", "Maria", "Carlos"],
-      "Basket Gorila": ["Ana", "Bruno"]
+        "Gorilas FC": [
+            "João",
+            "Maria",
+            "Carlos"
+        ],
+        "Basket Gorila": [
+            "Ana",
+            "Bruno"
+        ]
     },
     "dias": [
         "Sábado 14/06",
@@ -16,366 +30,716 @@
         "Sábado 21/06",
         "Domingo 22/06"
     ],
-    "esportes":  {
+    "esportes": {
         "futsal": "/static/src/FUTSAL-ball.png",
         "volei": "/static/src/VOLEI-ball.png",
         "basquete": "/static/src/BASQUETE-ball.png"
-    },  
+    },
     "jogos": [
-      {
-        "esporte": "futsal",
-        "data": "Sábado 14/06",
-        "hora": "14:00",
-        "timeA": "Não Sabemos Cruzar IV",
-        "timeB": "Comuna Neres",
-        "resultado": "4 x 1",
-        "golsA": "2x Dante, 1x Altmeyer, 1x Gui Reolon",
-        "golsB": "1x Vitor Tiozo"
-      },
-      {
-        "esporte": "futsal",
-        "data": "Sábado 14/06",
-        "hora": "15:00",
-        "timeA": "Donos da Bola",
-        "timeB": "Legendários",
-        "resultado": "6 x  4",
-        "golsA": "2x Arthur, 2x Pedro, 1x Guilherme, 1x Gabriel Santos",
-        "golsB": "2x Pedro Schreiber, 1x Vinicius"
-      },
-      {
-        "esporte": "volei",
-        "data": "Domingo 15/06",
-        "hora": "14:00",
-        "timeA": "Astecas",
-        "timeB": "Donos da Bola",
-        "resultado": "2 x  1",
-        "maiorA": "Lucas Viana",
-        "maiorB": "Caio Eich"
-      }, 
-      {
-        "esporte": "futsal",
-        "data": "Segunda 16/06",
-        "hora": "19:00",
-        "timeA": "Legendários",
-        "timeB": "Funcionários da Bola",
-        "resultado": "5 x 5",
-        "golsA": "2x André, 2x Bonatto",
-        "golsB": "2x Alexandre, 1x Jean, 1x Nathan, 1x Celso"
-      },        
-      {
-        "esporte": "volei",
-        "data": "Quarta 18/06",
-        "hora": "23:00",
-        "timeA": "Sereias Volei Club",
-        "timeB": "Ardigirls",
-        "resultado": " x ",
-        "maiorA": "",
-        "maiorB": ""
-      },
-      {
-        "esporte": "futsal",
-        "data": "Quinta 19/06",
-        "hora": "22:00",
-        "timeA": "Donos da Bola",
-        "timeB": "Legio Augusta",
-        "resultado": " x ",
-        "golsA": "",
-        "golsB": ""
-      }
+        {
+            "esporte": "futsal",
+            "data": "Sábado 14/06",
+            "hora": "14:00",
+            "timeA": "Não Sabemos Cruzar IV",
+            "timeB": "Comuna Neres",
+            "resultado": "4 x 1",
+            "golsA": "2x Dante, 1x Altmeyer, 1x Gui Reolon",
+            "golsB": "1x Vitor Tiozo"
+        },
+        {
+            "esporte": "futsal",
+            "data": "Sábado 14/06",
+            "hora": "15:00",
+            "timeA": "Donos da Bola",
+            "timeB": "Legendários",
+            "resultado": "6 x  4",
+            "golsA": "2x Arthur, 2x Pedro, 1x Guilherme, 1x Gabriel Santos",
+            "golsB": "2x Pedro Schreiber, 1x Vinicius"
+        },
+        {
+            "esporte": "volei",
+            "data": "Domingo 15/06",
+            "hora": "14:00",
+            "timeA": "Astecas",
+            "timeB": "Donos da Bola",
+            "resultado": "2 x  1",
+            "maiorA": "Lucas Viana",
+            "maiorB": "Caio Eich"
+        },
+        {
+            "esporte": "futsal",
+            "data": "Segunda 16/06",
+            "hora": "19:00",
+            "timeA": "Legendários",
+            "timeB": "Funcionários da Bola",
+            "resultado": "5 x 5",
+            "golsA": "2x André, 2x Bonatto",
+            "golsB": "2x Alexandre, 1x Jean, 1x Nathan, 1x Celso"
+        },
+        {
+            "esporte": "volei",
+            "data": "Quarta 18/06",
+            "hora": "23:00",
+            "timeA": "Sereias Volei Club",
+            "timeB": "Ardigirls",
+            "resultado": " x ",
+            "maiorA": "",
+            "maiorB": ""
+        },
+        {
+            "esporte": "futsal",
+            "data": "Quinta 19/06",
+            "hora": "20:00",
+            "timeA": "Donos da Bola",
+            "timeB": "Funcionários da Bola",
+            "resultado": " x ",
+            "golsA": "",
+            "golsB": ""
+        },
+        {
+            "esporte": "futsal",
+            "data": "Quinta 19/06",
+            "hora": "22:00",
+            "timeA": "Donos da Bola",
+            "timeB": "Legio Augusta",
+            "resultado": " x ",
+            "golsA": "",
+            "golsB": ""
+        }
     ],
     "classificacao": {
         "futsal": {
             "grupoA": [
-                {"time": "Donos da Bola", "jogos": 1, "vitorias": 1, "derrotas": 0, "empates": 0, "pontos": 3},
-                {"time": "Legio Augusta", "jogos": 0, "vitorias": 0, "derrotas": 0, "empates": 0, "pontos": 0},
-                {"time": "Funcionários da Bola", "jogos": 1, "vitorias": 0, "derrotas": 0, "empates": 1, "pontos": 1},
-                {"time": "Gaviões da Fiel", "jogos": 0, "vitorias": 0, "derrotas": 0, "empates": 0, "pontos": 0},
-                {"time": "Legendários", "jogos": 2, "vitorias": 0, "derrotas": 1, "empates": 1, "pontos": 1}
+                {
+                    "time": "Donos da Bola",
+                    "jogos": 1,
+                    "vitorias": 1,
+                    "derrotas": 0,
+                    "empates": 0,
+                    "pontos": 3
+                },
+                {
+                    "time": "Legio Augusta",
+                    "jogos": 0,
+                    "vitorias": 0,
+                    "derrotas": 0,
+                    "empates": 0,
+                    "pontos": 0
+                },
+                {
+                    "time": "Funcionários da Bola",
+                    "jogos": 1,
+                    "vitorias": 0,
+                    "derrotas": 0,
+                    "empates": 1,
+                    "pontos": 1
+                },
+                {
+                    "time": "Gaviões da Fiel",
+                    "jogos": 0,
+                    "vitorias": 0,
+                    "derrotas": 0,
+                    "empates": 0,
+                    "pontos": 0
+                },
+                {
+                    "time": "Legendários",
+                    "jogos": 2,
+                    "vitorias": 0,
+                    "derrotas": 1,
+                    "empates": 1,
+                    "pontos": 1
+                }
             ],
             "grupoB": [
-                {"time": "Não Sabemos Cruzar IV", "jogos": 1, "vitorias": 1, "derrotas": 0, "empates": 0, "pontos": 3},
-                {"time": "Peixao", "jogos": 0, "vitorias": 0, "derrotas": 0, "empates": 0, "pontos": 0},
-                {"time": "Legio Macedonica", "jogos": 0, "vitorias": 0, "derrotas": 0, "empates": 0, "pontos": 0},
-                {"time": "Agregados FC", "jogos": 0, "vitorias": 0, "derrotas": 0, "empates": 0, "pontos": 0},
-                {"time": "Comuna Neres", "jogos": 1, "vitorias": 0, "derrotas": 1, "empates": 0, "pontos": 0}
+                {
+                    "time": "Não Sabemos Cruzar IV",
+                    "jogos": 1,
+                    "vitorias": 1,
+                    "derrotas": 0,
+                    "empates": 0,
+                    "pontos": 3
+                },
+                {
+                    "time": "Peixao",
+                    "jogos": 0,
+                    "vitorias": 0,
+                    "derrotas": 0,
+                    "empates": 0,
+                    "pontos": 0
+                },
+                {
+                    "time": "Legio Macedonica",
+                    "jogos": 0,
+                    "vitorias": 0,
+                    "derrotas": 0,
+                    "empates": 0,
+                    "pontos": 0
+                },
+                {
+                    "time": "Agregados FC",
+                    "jogos": 0,
+                    "vitorias": 0,
+                    "derrotas": 0,
+                    "empates": 0,
+                    "pontos": 0
+                },
+                {
+                    "time": "Comuna Neres",
+                    "jogos": 1,
+                    "vitorias": 0,
+                    "derrotas": 1,
+                    "empates": 0,
+                    "pontos": 0
+                }
             ]
+        },
+        "volei": {
+            "grupoC": [
+                {
+                    "time": "Gorilas FC",
+                    "jogos": 5,
+                    "vitorias": 4,
+                    "derrotas": 1,
+                    "empates": 0,
+                    "pontos": 12
+                },
+                {
+                    "time": "Time B",
+                    "jogos": 5,
+                    "vitorias": 3,
+                    "derrotas": 2,
+                    "empates": 0,
+                    "pontos": 9
+                },
+                {
+                    "time": "Time C",
+                    "jogos": 5,
+                    "vitorias": 2,
+                    "derrotas": 2,
+                    "empates": 1,
+                    "pontos": 7
+                },
+                {
+                    "time": "Time D",
+                    "jogos": 5,
+                    "vitorias": 1,
+                    "derrotas": 3,
+                    "empates": 1,
+                    "pontos": 4
+                }
+            ]
+        },
+        "basquete": {
+            "grupoC": [
+                {
+                    "time": "Gorilas FC",
+                    "jogos": 5,
+                    "vitorias": 4,
+                    "derrotas": 1,
+                    "empates": 0,
+                    "pontos": 12
+                },
+                {
+                    "time": "Time B",
+                    "jogos": 5,
+                    "vitorias": 3,
+                    "derrotas": 2,
+                    "empates": 0,
+                    "pontos": 9
+                },
+                {
+                    "time": "Time C",
+                    "jogos": 5,
+                    "vitorias": 2,
+                    "derrotas": 2,
+                    "empates": 1,
+                    "pontos": 7
+                },
+                {
+                    "time": "Time D",
+                    "jogos": 5,
+                    "vitorias": 1,
+                    "derrotas": 3,
+                    "empates": 1,
+                    "pontos": 4
+                }
+            ]
+        }
     },
-    "volei": {
-        "grupoC": [
-                {"time": "Gorilas FC", "jogos": 5, "vitorias": 4, "derrotas": 1, "empates": 0, "pontos": 12},
-                {"time": "Time B", "jogos": 5, "vitorias": 3, "derrotas": 2, "empates": 0, "pontos": 9},
-                {"time": "Time C", "jogos": 5, "vitorias": 2, "derrotas": 2, "empates": 1, "pontos": 7},
-                {"time": "Time D", "jogos": 5, "vitorias": 1, "derrotas": 3, "empates": 1, "pontos": 4}
-        ]
-    },
-    "basquete": {
-        "grupoC": [
-                {"time": "Gorilas FC", "jogos": 5, "vitorias": 4, "derrotas": 1, "empates": 0, "pontos": 12},
-                {"time": "Time B", "jogos": 5, "vitorias": 3, "derrotas": 2, "empates": 0, "pontos": 9},
-                {"time": "Time C", "jogos": 5, "vitorias": 2, "derrotas": 2, "empates": 1, "pontos": 7},
-                {"time": "Time D", "jogos": 5, "vitorias": 1, "derrotas": 3, "empates": 1, "pontos": 4}
-        ]
-    }
-  },  
     "estatisticas": {
-      "futsal": {
-        "gols": [
-          {"jogador": "Arthur Eich - Donos da Bola", "gols": 2},
-          {"jogador": "Dante - Não Sabemos Cruzar IV", "gols": 2},
-          {"jogador": "Pedro Schreiber - Legendários", "gols": 2},
-          {"jogador": "André - Legendários", "gols": 2},
-          {"jogador": "Bonatto - Legendários", "gols": 2},
-          {"jogador": "Alexandre - Funcionários da Bola", "gols": 2},
-          {"jogador": "Jean - Funcionários da Bola", "gols": 1},
-          {"jogador": "Celso - Funcionários da Bola", "gols": 1},
-          {"jogador": "Nathan - Funcionários da Bola", "gols": 1},
-          {"jogador": "Pedro - Donos da Bola", "gols": 2},
-          {"jogador": "Guilherme de Paula - Donos da Bola", "gols": 1},
-          {"jogador": "Gabriel Bruno - Donos da Bola", "gols": 1},
-          {"jogador": "Vinicius - Legendários", "gols": 1},
-          {"jogador": "Guilherme Altmeyer - Não Sabemos Cruzar IV", "gols": 1},
-          {"jogador": "Vitor Tiozo - Comuna Neres", "gols": 1}
-        ],
-        "assistencias": [
-          {"jogador": "Guilherme de Paula - Donos da Bola", "assistencias": 3},
-          {"jogador": "Caio Eich - Donos da Bola", "assistencias": 2},
-          {"jogador": "Guilherme Altmeyer - Não Sabemos Cruzar IV", "assistencias": 2},
-          {"jogador": "Pedro Schreiber - Legendários", "assistencias": 2},
-          {"jogador": "Arthur Garcia - Legendários", "assistencias": 2},
-          {"jogador": "Celso - Funcionários da Bola", "assistencias": 2},
-          {"jogador": "Arthur Eich - Donos da Bola", "assistencias": 1},
-          {"jogador": "Dante - Não Sabemos Cruzar IV", "assistencias": 1},
-          {"jogador": "Alexandre - Funcionários da Bola", "assistencias": 1},
-          {"jogador": "Guilherme Reolon - Não Sabemos Cruzar IV", "assistencias": 1},
-          {"jogador": "Vitor Tiozo - Comuna Neres", "assistencias": 1},
-          {"jogador": "Vitor Krieser - Não Sabemos Cruzar IV", "assistencias": 1}
-        ]
-      },
-      "volei": {
-        "pontos": [
-        ]
-      },
-      "basquete": {
-        "pontos": [
-        ]
-      }
+        "futsal": {
+            "gols": [
+                {
+                    "jogador": "Arthur Eich - Donos da Bola",
+                    "gols": 2
+                },
+                {
+                    "jogador": "Dante - Não Sabemos Cruzar IV",
+                    "gols": 2
+                },
+                {
+                    "jogador": "Pedro Schreiber - Legendários",
+                    "gols": 2
+                },
+                {
+                    "jogador": "André - Legendários",
+                    "gols": 2
+                },
+                {
+                    "jogador": "Bonatto - Legendários",
+                    "gols": 2
+                },
+                {
+                    "jogador": "Alexandre - Funcionários da Bola",
+                    "gols": 2
+                },
+                {
+                    "jogador": "Jean - Funcionários da Bola",
+                    "gols": 1
+                },
+                {
+                    "jogador": "Celso - Funcionários da Bola",
+                    "gols": 1
+                },
+                {
+                    "jogador": "Nathan - Funcionários da Bola",
+                    "gols": 1
+                },
+                {
+                    "jogador": "Pedro - Donos da Bola",
+                    "gols": 2
+                },
+                {
+                    "jogador": "Guilherme de Paula - Donos da Bola",
+                    "gols": 1
+                },
+                {
+                    "jogador": "Gabriel Bruno - Donos da Bola",
+                    "gols": 1
+                },
+                {
+                    "jogador": "Vinicius - Legendários",
+                    "gols": 1
+                },
+                {
+                    "jogador": "Guilherme Altmeyer - Não Sabemos Cruzar IV",
+                    "gols": 1
+                },
+                {
+                    "jogador": "Vitor Tiozo - Comuna Neres",
+                    "gols": 1
+                }
+            ],
+            "assistencias": [
+                {
+                    "jogador": "Guilherme de Paula - Donos da Bola",
+                    "assistencias": 3
+                },
+                {
+                    "jogador": "Caio Eich - Donos da Bola",
+                    "assistencias": 2
+                },
+                {
+                    "jogador": "Guilherme Altmeyer - Não Sabemos Cruzar IV",
+                    "assistencias": 2
+                },
+                {
+                    "jogador": "Pedro Schreiber - Legendários",
+                    "assistencias": 2
+                },
+                {
+                    "jogador": "Arthur Garcia - Legendários",
+                    "assistencias": 2
+                },
+                {
+                    "jogador": "Celso - Funcionários da Bola",
+                    "assistencias": 2
+                },
+                {
+                    "jogador": "Arthur Eich - Donos da Bola",
+                    "assistencias": 1
+                },
+                {
+                    "jogador": "Dante - Não Sabemos Cruzar IV",
+                    "assistencias": 1
+                },
+                {
+                    "jogador": "Alexandre - Funcionários da Bola",
+                    "assistencias": 1
+                },
+                {
+                    "jogador": "Guilherme Reolon - Não Sabemos Cruzar IV",
+                    "assistencias": 1
+                },
+                {
+                    "jogador": "Vitor Tiozo - Comuna Neres",
+                    "assistencias": 1
+                },
+                {
+                    "jogador": "Vitor Krieser - Não Sabemos Cruzar IV",
+                    "assistencias": 1
+                }
+            ]
+        },
+        "volei": {
+            "pontos": []
+        },
+        "basquete": {
+            "pontos": []
+        }
     },
     "individuais": {
-      "volei_de_praia": {
-      "misto": [
-        {"dupla": "Arthur Eich & Helen Kailer", "posicao": 1},
-        {"dupla": "Guilherme de Paula & Bianca Andressa", "posicao": 1},
-        {"dupla": "Lais Viana & Lucas Viana", "posicao": 1},
-        {"dupla": "Mateus Maia & ", "posicao": 1},
-        {"dupla": "Ana Lech & Arthur Garcia", "posicao": 1},
-        {"dupla": "Ana Lech & Eduardo Tosatti", "posicao": 1},
-        {"dupla": "Cris & Caetano", "posicao": 1},
-        {"dupla": "Laura & Breciani", "posicao": 1},
-        {"dupla": "Guilherme Reolon & Ana ", "posicao": 1},
-        {"dupla": "Pedro Schreiber & Mariana", "posicao": 1},
-        {"dupla": "Giovanna Gonçalves & Lucas", "posicao": 1},
-        {"dupla": "Vitor Krieser & Natalia", "posicao": 1}
-      ],
-      "masculino": [
-        {"dupla": "Arthur Eich & Guilherme de Paula", "posicao": 1},
-        {"dupla": "Guilherme Reolon & Vitor Krieser", "posicao": 1},
-        {"dupla": "Mateus Franck & Caetano", "posicao": 1},
-        {"dupla": "Pedro Schreiber & Mateus", "posicao": 1},
-        {"dupla": "Guilherme Altmeyer & Dante Gabriel", "posicao": 1}
-      ],
-      "feminino": [
-        {"dupla": "Lais Viana & Thaieny", "posicao": 1},
-        {"dupla": "Dandarah Oliveira & Gabrielly Oliveira", "posicao": 1},
-        {"dupla": "Natalia & Gabi", "posicao": 1},
-        {"dupla": "Cris & Helen", "posicao": 1}
-      ]
-      },
-      "tenis_de_campo": {
-      "solo": [
-      ],
-      "duplas": [
-      ]
-      },
-      "xadrez": {
-      "Solo": [
-      ]
-      },
-      "tenis_de_mesa": {
-      "Solo": [
-      ]
-      }
+        "volei_de_praia": {
+            "misto": [
+                {
+                    "dupla": "Arthur Eich & Helen Kailer",
+                    "posicao": 1
+                },
+                {
+                    "dupla": "Guilherme de Paula & Bianca Andressa",
+                    "posicao": 1
+                },
+                {
+                    "dupla": "Lais Viana & Lucas Viana",
+                    "posicao": 1
+                },
+                {
+                    "dupla": "Mateus Maia & ",
+                    "posicao": 1
+                },
+                {
+                    "dupla": "Ana Lech & Arthur Garcia",
+                    "posicao": 1
+                },
+                {
+                    "dupla": "Ana Lech & Eduardo Tosatti",
+                    "posicao": 1
+                },
+                {
+                    "dupla": "Cris & Caetano",
+                    "posicao": 1
+                },
+                {
+                    "dupla": "Laura & Breciani",
+                    "posicao": 1
+                },
+                {
+                    "dupla": "Guilherme Reolon & Ana ",
+                    "posicao": 1
+                },
+                {
+                    "dupla": "Pedro Schreiber & Mariana",
+                    "posicao": 1
+                },
+                {
+                    "dupla": "Giovanna Gonçalves & Lucas",
+                    "posicao": 1
+                },
+                {
+                    "dupla": "Vitor Krieser & Natalia",
+                    "posicao": 1
+                }
+            ],
+            "masculino": [
+                {
+                    "dupla": "Arthur Eich & Guilherme de Paula",
+                    "posicao": 1
+                },
+                {
+                    "dupla": "Guilherme Reolon & Vitor Krieser",
+                    "posicao": 1
+                },
+                {
+                    "dupla": "Mateus Franck & Caetano",
+                    "posicao": 1
+                },
+                {
+                    "dupla": "Pedro Schreiber & Mateus",
+                    "posicao": 1
+                },
+                {
+                    "dupla": "Guilherme Altmeyer & Dante Gabriel",
+                    "posicao": 1
+                }
+            ],
+            "feminino": [
+                {
+                    "dupla": "Lais Viana & Thaieny",
+                    "posicao": 1
+                },
+                {
+                    "dupla": "Dandarah Oliveira & Gabrielly Oliveira",
+                    "posicao": 1
+                },
+                {
+                    "dupla": "Natalia & Gabi",
+                    "posicao": 1
+                },
+                {
+                    "dupla": "Cris & Helen",
+                    "posicao": 1
+                }
+            ]
+        },
+        "tenis_de_campo": {
+            "solo": [],
+            "duplas": []
+        },
+        "xadrez": {
+            "Solo": []
+        },
+        "tenis_de_mesa": {
+            "Solo": []
+        }
     },
     "proximos_jogos": [
-      {
-        "esporte": "volei",
-        "data": "Quarta 18/06",
-        "dia": "Quarta",
-        "hora": "23:00",
-        "timeA": "Sereias Volei Club",
-        "timeB": "Ardigirls"
-      },
-      {
-        "esporte": "futsal",
-        "data": "Quinta 19/06",
-        "dia": "Quinta",
-        "hora": "20:00",
-        "timeA": "Donos da Bola",
-        "timeB": "Funcionários da Bola"
-      },
-      {
-        "esporte": "futsal",
-        "data": "Quinta 19/06",
-        "dia": "Quinta",
-        "hora": "22:00",
-        "timeA": "Donos da Bola",
-        "timeB": "Legio Augusta"
-      }
+        {
+            "esporte": "futsal",
+            "data": "Quinta 19/06",
+            "dia": "Quinta",
+            "hora": "20:00",
+            "timeA": "Donos da Bola",
+            "timeB": "Funcionários da Bola"
+        },
+        {
+            "esporte": "futsal",
+            "data": "Quinta 19/06",
+            "dia": "Quinta",
+            "hora": "22:00",
+            "timeA": "Donos da Bola",
+            "timeB": "Legio Augusta"
+        }
     ],
     "logos": {
-      "Donos da Bola": "/static/src/ddb.png",
-      "Comuna Neres": "/static/src/cmn.png",
-      "Legendários": "/static/src/lgnd.png",
-      "Não Sabemos Cruzar IV": "/static/src/idv.png",
-      "Legio Augusta": "/static/src/zmb1.png",
-      "Legio Macedonica": "/static/src/zmb2.png",
-      "Gaviões da Fiel": "/static/src/gdf.png",
-      "Peixão": "/static/src/px.png",
-      "Funcionários da Bola": "/static/src/unio.png",
-      "Agregados FC": "/static/src/agregados.png",
-      "Chicago Burros": "/static/src/cbrr.png",
-      "Balançada Tropical": "/static/src/blc.png",
-      "Astecas": "/static/src/ast.png",
-      "Sokinada": "/static/src/lgnd.png",
-      "Sereias Volei Club": "static/src/lais.png",
-      "Ardigirls": "static/src/ard.png",
-      "Gorigirls": "static/src/logo.png",
-      "Gorila": "/static/src/glr.png"
+        "Donos da Bola": "/static/src/ddb.png",
+        "Comuna Neres": "/static/src/cmn.png",
+        "Legendários": "/static/src/lgnd.png",
+        "Não Sabemos Cruzar IV": "/static/src/idv.png",
+        "Legio Augusta": "/static/src/zmb1.png",
+        "Legio Macedonica": "/static/src/zmb2.png",
+        "Gaviões da Fiel": "/static/src/gdf.png",
+        "Peixão": "/static/src/px.png",
+        "Funcionários da Bola": "/static/src/unio.png",
+        "Agregados FC": "/static/src/agregados.png",
+        "Chicago Burros": "/static/src/cbrr.png",
+        "Balançada Tropical": "/static/src/blc.png",
+        "Astecas": "/static/src/ast.png",
+        "Sokinada": "/static/src/lgnd.png",
+        "Sereias Volei Club": "static/src/lais.png",
+        "Ardigirls": "static/src/ard.png",
+        "Gorigirls": "static/src/logo.png",
+        "Gorila": "/static/src/glr.png"
     },
     "jogadores_times": [
-      {
-        "nome": "Donos da Bola",
-        "img": "/static/src/ddb.png",
-        "jogadores": [
-          "Arthur Eich", "Guilherme de Paula", "Caio Eich", "Gabriel Cezimbra",
-          "Marcelo Vessaro", "Pedro", "Ricardo Vessaro", "Gabriel dos Santos"
-        ]
-      },
-      {
-        "nome": "Comuna Neres",
-        "img": "/static/src/cmn.png",
-        "jogadores": [
-          "Marcelo Muller", "Lucca Neres", "Victor San", "Vitor Tiozo",
-          "Gustavo Orlandini", "Rafael Hoffman", "Andre Henrique",
-          "Pedro Berti", "Duege", "Samuel Agricola"
-        ]
-      },
-      {
-        "nome": "Legendários",
-        "img": "/static/src/lgnd.png",
-        "jogadores": [
-          "Pedro Schreiber", "Mateus Schreiber", "Arthur Garcia",
-          "Felipe Lisboa", "Pheterson Bonatto", "Vinicius"
-        ]
-      },
-      {
-        "nome": "Não Sabemos Cruzar IV",
-        "img": "/static/src/idv.png",
-        "jogadores": [
-          "Guilherme Reolon", "Vitor Krieser", "Guilherme Altmeyer",
-          "Kauan Campos", "Victor San", "Victor San"
-        ]
-      },
-      {
-        "nome": "Legio Augusta",
-        "img": "/static/src/zmb1.png",
-        "jogadores": [
-          "Zamboni", "Victtor Oliveira", "Yago Pereira", "Vinicius Hermes",
-          "Renan Matheus", "Lucas Santos", "Andre Antunes"
-        ]
-      },
-      {
-        "nome": "Legio Macedonica",
-        "img": "/static/src/zmb2.png",
-        "jogadores": [
-          "Gustavo Henrique", "Gabriel Ronchi", "Bruno Pereira",
-          "Felipe Martins", "Fabricio Brum", "Gabriel Miranda", "Gilmar Dotti"
-        ]
-      },
-      {
-        "nome": "Gaviões da Fiel",
-        "img": "/static/src/gdf.png",
-        "jogadores": [
-          "Leo Mendes", "Mateus Franck", "Joao Vitor", "Felipe Freitas",
-          "Matheus Rocha", "Diego Alisson", "Marcelo Oliveira"
-        ]
-      },
-      {
-        "nome": "Peixão",
-        "img": "/static/src/px.png",
-        "jogadores": [
-          "Guilherme Dalmagro", "Gabriel Ramos", "Erik Castilho",
-          "Rahel Bisão", "Matheus Henrique", "Irmao Matheus"
-        ]
-      },
-      {
-        "nome": "Funcionários da Bola",
-        "img": "/static/src/unio.png",
-        "jogadores": [
-          "Fausto", "Alexandre Carissimi", "Paulo Henrique",
-          "Nathan Henrique", "Jean Toillier", "Celso Polinarski"
-        ]
-      },
-      {
-        "nome": "Agregados FC",
-        "img": "/static/src/agregados.png",
-        "jogadores": [
-          "Enzo Dino", "Jonatas Queiroz", "Bruno",
-          "Victor San", "Victor San", "Victor San", "Victor San"
-        ]
-      },
-      {
+        {
+            "nome": "Donos da Bola",
+            "img": "/static/src/ddb.png",
+            "jogadores": [
+                "Arthur Eich",
+                "Guilherme de Paula",
+                "Caio Eich",
+                "Gabriel Cezimbra",
+                "Marcelo Vessaro",
+                "Pedro",
+                "Ricardo Vessaro",
+                "Gabriel dos Santos"
+            ]
+        },
+        {
+            "nome": "Comuna Neres",
+            "img": "/static/src/cmn.png",
+            "jogadores": [
+                "Marcelo Muller",
+                "Lucca Neres",
+                "Victor San",
+                "Vitor Tiozo",
+                "Gustavo Orlandini",
+                "Rafael Hoffman",
+                "Andre Henrique",
+                "Pedro Berti",
+                "Duege",
+                "Samuel Agricola"
+            ]
+        },
+        {
+            "nome": "Legendários",
+            "img": "/static/src/lgnd.png",
+            "jogadores": [
+                "Pedro Schreiber",
+                "Mateus Schreiber",
+                "Arthur Garcia",
+                "Felipe Lisboa",
+                "Pheterson Bonatto",
+                "Vinicius"
+            ]
+        },
+        {
+            "nome": "Não Sabemos Cruzar IV",
+            "img": "/static/src/idv.png",
+            "jogadores": [
+                "Guilherme Reolon",
+                "Vitor Krieser",
+                "Guilherme Altmeyer",
+                "Kauan Campos",
+                "Victor San",
+                "Victor San"
+            ]
+        },
+        {
+            "nome": "Legio Augusta",
+            "img": "/static/src/zmb1.png",
+            "jogadores": [
+                "Zamboni",
+                "Victtor Oliveira",
+                "Yago Pereira",
+                "Vinicius Hermes",
+                "Renan Matheus",
+                "Lucas Santos",
+                "Andre Antunes"
+            ]
+        },
+        {
+            "nome": "Legio Macedonica",
+            "img": "/static/src/zmb2.png",
+            "jogadores": [
+                "Gustavo Henrique",
+                "Gabriel Ronchi",
+                "Bruno Pereira",
+                "Felipe Martins",
+                "Fabricio Brum",
+                "Gabriel Miranda",
+                "Gilmar Dotti"
+            ]
+        },
+        {
+            "nome": "Gaviões da Fiel",
+            "img": "/static/src/gdf.png",
+            "jogadores": [
+                "Leo Mendes",
+                "Mateus Franck",
+                "Joao Vitor",
+                "Felipe Freitas",
+                "Matheus Rocha",
+                "Diego Alisson",
+                "Marcelo Oliveira"
+            ]
+        },
+        {
+            "nome": "Peixão",
+            "img": "/static/src/px.png",
+            "jogadores": [
+                "Guilherme Dalmagro",
+                "Gabriel Ramos",
+                "Erik Castilho",
+                "Rahel Bisão",
+                "Matheus Henrique",
+                "Irmao Matheus"
+            ]
+        },
+        {
+            "nome": "Funcionários da Bola",
+            "img": "/static/src/unio.png",
+            "jogadores": [
+                "Fausto",
+                "Alexandre Carissimi",
+                "Paulo Henrique",
+                "Nathan Henrique",
+                "Jean Toillier",
+                "Celso Polinarski"
+            ]
+        },
+        {
+            "nome": "Agregados FC",
+            "img": "/static/src/agregados.png",
+            "jogadores": [
+                "Enzo Dino",
+                "Jonatas Queiroz",
+                "Bruno",
+                "Victor San",
+                "Victor San",
+                "Victor San",
+                "Victor San"
+            ]
+        },
+        {
             "nome": "Time em construção (Eterna)",
             "img": "/static/src/idv.png",
             "jogadores": [
-                "Guilherme Reolon", "Vitor Krieser", "Guilherme Altmeyer", "Drage", "Dante", "Igor"
+                "Guilherme Reolon",
+                "Vitor Krieser",
+                "Guilherme Altmeyer",
+                "Drage",
+                "Dante",
+                "Igor"
             ]
         },
         {
             "nome": "Astecas",
             "img": "/static/src/ast.png",
             "jogadores": [
-                "Mateus Maia", "Lucas Viana", "Thomas", "Fabricio", "Pedro Michalski", "N sei"
+                "Mateus Maia",
+                "Lucas Viana",
+                "Thomas",
+                "Fabricio",
+                "Pedro Michalski",
+                "N sei"
             ]
         },
         {
             "nome": "Sokinada",
             "img": "/static/src/logo.png",
             "jogadores": [
-                "Pedro Schreiber", "Ana Schreiber", "Caetano", "Isadora", "Mateus Schreiber", "Mariana"
+                "Pedro Schreiber",
+                "Ana Schreiber",
+                "Caetano",
+                "Isadora",
+                "Mateus Schreiber",
+                "Mariana"
             ]
         },
         {
             "nome": "Gorila",
             "img": "/static/src/glr.png",
             "jogadores": [
-                "Fabrizio Ilkiu", "Baiano", "Russo", "Iago", "Gehlen", "Ala",
-                "Ronaldo", "João Gabriel", "Castor", "Staub"
+                "Fabrizio Ilkiu",
+                "Baiano",
+                "Russo",
+                "Iago",
+                "Gehlen",
+                "Ala",
+                "Ronaldo",
+                "João Gabriel",
+                "Castor",
+                "Staub"
             ]
         },
         {
             "nome": "Chicago Burros",
             "img": "/static/src/cbrr.png",
             "jogadores": [
-                "Eduardo Vanz", "Zamboni", "Gabriel Angel", "Pedro Primo",
-                "Weverton Krein", "Iorran de Paula", "Marco Antonio", "Matheus Gulak"
+                "Eduardo Vanz",
+                "Zamboni",
+                "Gabriel Angel",
+                "Pedro Primo",
+                "Weverton Krein",
+                "Iorran de Paula",
+                "Marco Antonio",
+                "Matheus Gulak"
             ]
         },
         {
             "nome": "Balançada Tropical",
             "img": "/static/src/blc.png",
             "jogadores": [
-                "Gustavo Chiossi", "Eric Barbacha", "Vitor Krieser", "Hidony Miranda",
-                "Thaluan Rafael", "Roger Munra", "Ruan Rubino", "Nathan Oliboni"
+                "Gustavo Chiossi",
+                "Eric Barbacha",
+                "Vitor Krieser",
+                "Hidony Miranda",
+                "Thaluan Rafael",
+                "Roger Munra",
+                "Ruan Rubino",
+                "Nathan Oliboni"
             ]
         }
     ]
