@@ -216,6 +216,13 @@
       {
         "esporte": "futsal",
         "data": "Quinta 19/06",
+        "hora": "20:00",
+        "timeA": "Donos da Bola",
+        "timeB": "Funcionários da Bola"
+      },
+      {
+        "esporte": "futsal",
+        "data": "Quinta 19/06",
         "hora": "22:00",
         "timeA": "Donos da Bola",
         "timeB": "Legio Augusta"

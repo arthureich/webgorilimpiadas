@@ -4,6 +4,7 @@ from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
 import json
 import os
+from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
 
@@ -20,6 +21,23 @@ templates = Jinja2Templates(directory="templates")
 def load_data():
     with open(DATA_FILE, "r", encoding="utf-8") as f:
         return json.load(f)
+
+
+
+# Liberar CORS
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+@app.get("/api/proximos-jogos")
+def get_proximos_jogos():
+    with open("static/backend/data.json", "r", encoding="utf-8") as file:
+        data = json.load(file)
+    return data.get("proximos_jogos", [])
 
 
 # Rotas principais
@@ -56,3 +74,8 @@ async def read_estatisticas(request: Request):
 async def read_individuais(request: Request):
     data = load_data()
     return templates.TemplateResponse("individuais.html", {"request": request, "data": data})
+
+@app.get("/story", response_class=HTMLResponse)
+async def read_individuais(request: Request):
+    data = load_data()
+    return templates.TemplateResponse("story.html", {"request": request, "data": data})

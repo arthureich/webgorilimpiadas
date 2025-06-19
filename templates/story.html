@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Story - Próximos Jogos</title>
+    <link rel="stylesheet" href="/static/story.css">
+</head>
+<body>
+
+    <div class="story">
+        <div class="header">
+            <h1>Gorilimpíadas</h1>
+            <p>Jogos da Semana</p>
+        </div>
+
+        <div class="jogos-container" id="jogos-container">
+            <!-- Jogos carregam aqui via JS -->
+        </div>
+
+        <div class="footer">
+            <p>Próximo jogo...</p>
+        </div>
+    </div>
+
+    <script>
+        // Dados simulados
+        fetch('/static/backend/data.json')
+            
+            .then(response => response.json())
+            .then(data => {
+                const container = document.getElementById('jogos-container');
+                if (!data.proximos_jogos || data.proximos_jogos.length === 0) {
+                    const aviso = document.createElement('p');
+                    aviso.textContent = 'Nenhum jogo programado.';
+                    container.appendChild(aviso);
+                    return;
+                }
+                data.proximos_jogos.forEach(jogo => {
+                    const div = document.createElement('div');
+                    div.className = 'jogo';
+
+                    div.innerHTML = `
+                        <div class="info-top">
+                            <span class="hora">${jogo.hora}</span>
+                            <span class="esporte">${jogo.esporte.toUpperCase()}</span>
+                        </div>
+                        <div class="times">
+                            <div class="time">
+                                <img src="${data.logos[jogo.timeA]}" alt="${jogo.timeA}">
+                                <p>${jogo.timeA}</p>
+                            </div>
+                            <span class="versus">X</span>
+                            <div class="time">
+                                <img src="${data.logos[jogo.timeB]}" alt="${jogo.timeB}">
+                                <p>${jogo.timeB}</p>
+                            </div>
+                        </div>
+                    `;
+                    container.appendChild(div);
+                });
+            })
+            .catch(error => {
+                console.error('Erro ao carregar os dados:', error);
+                const errorDiv = document.createElement('div');
+                errorDiv.className = 'error';
+                errorDiv.textContent = 'Erro ao carregar os jogos. Tente novamente mais tarde.';
+                document.getElementById('jogos-container').appendChild(errorDiv);
+            });
+    </script>
+
+</body>
+</html>

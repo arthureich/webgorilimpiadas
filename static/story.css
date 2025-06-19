@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(180deg, #6a0dad, #0077ff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.story {
+    width: 360px;
+    height: 640px;
+    background: rgba(0,0,0,0.2);
+    border-radius: 20px;
+    padding: 20px;
+   /* background-image: url("https://th.bing.com/th/id/OIG1.1ZLyvPya.gQHz_xuIVs2?r=0&pid=ImgGn");
+    background-image: linear-gradient(100%, #6a0dad, #0077ff); */
+    box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header {
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0;
+    font-weight: bold;
+    color: #ffb347;
+    font-family: 'Arial Black', sans-serif;
+    margin-bottom: 10px;
+    font-weight: 900;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    line-height: 1.2;
+
+
+    font-size: 40px;
+}
+
+.header p {
+    margin: 4px 0 0 0;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.jogos-container {
+    flex: 1;
+    overflow-y: auto;
+    margin: 10px 0;
+}
+
+.jogo {
+    background-color: rgba(0,0,0,0.3);
+    padding: 12px;
+    border-radius: 15px;
+    margin-bottom: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+.info-top {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.hora {
+    color: #ffb347;
+}
+
+.esporte {
+    color: #00ffd5;
+}
+
+.times {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.time {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.time img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid white;
+}
+
+.time p {
+    margin: 5px 0 0 0;
+    font-size: 14px;
+    text-align: center;
+}
+
+.versus {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.footer {
+    text-align: center;
+    font-style: italic;
+    opacity: 0.8;
+}
