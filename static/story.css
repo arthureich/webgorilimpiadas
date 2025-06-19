@@ -10,6 +10,7 @@ body {
 }
 
 .story {
+    position: relative;
     width: 360px;
     height: 640px;
     background: rgba(0,0,0,0.2);
@@ -23,24 +24,50 @@ body {
     justify-content: space-between;
 }
 
+.bg {
+    background-image: url("/static/src/story_bg.png");
+    inset: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 360px;
+    height: 640px;
+    padding: 20px;
+    position: absolute;
+    background-size: cover;
+    top: 0;
+    background-position-x: center;
+    opacity: 0.2;
+    border-radius: 20px;
+    z-index: -1;
+}
+
 .header {
     text-align: center;
 }
 
 .header h1 {
+
     margin: 0;
     font-weight: bold;
-    color: #ffb347;
-    font-family: 'Arial Black', sans-serif;
-    margin-bottom: 10px;
+    color: #00ffd5;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 4px;
     font-weight: 900;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
     line-height: 1.2;
-
-
-    font-size: 40px;
+    font-size: 50px;
 }
-
+.header h2 {
+    margin: 0;
+    font-weight: bold;
+    color: #00ffd5;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+    font-weight: 700;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+    line-height: 1.2;
+    font-size: 30px;
+}
 .header p {
     margin: 4px 0 0 0;
     font-weight: 300;
@@ -50,32 +77,56 @@ body {
 .jogos-container {
     flex: 1;
     overflow-y: auto;
-    margin: 10px 0;
+    margin: 0px 0px;
 }
 
 .jogo {
     background-color: rgba(0,0,0,0.3);
-    padding: 12px;
+    padding: 0px 0px 6px;
     border-radius: 15px;
-    margin-bottom: 12px;
+    margin-bottom: 8px;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 2px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.3);
 }
 
 .info-top {
+    padding: 5px 0px 0px 0px;
+    margin-bottom: 2px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.7);
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: sans-serif;;
+    font-size: 16px;
     display: flex;
-    justify-content: space-between;
+    gap: 5%;
+    align-items: center;
+    justify-content: center;
     font-weight: bold;
 }
 
+.info-top img {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid white;
+}
+
 .hora {
+    margin-right: 20%;
+    position: relative;
+    left: 0;
+    display: flex;
+    gap: 20%;
+    font-family: Arial, Helvetica, sans-serif;
     color: #ffb347;
+    font-size: 18px;
 }
 
 .esporte {
-    color: #00ffd5;
+    color: #ffb347;
 }
 
 .times {
@@ -85,6 +136,8 @@ body {
 }
 
 .time {
+    width: 60%;
+    height: 20%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -102,6 +155,8 @@ body {
     margin: 5px 0 0 0;
     font-size: 14px;
     text-align: center;
+    color: #00ffd5;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
 }
 
 .versus {

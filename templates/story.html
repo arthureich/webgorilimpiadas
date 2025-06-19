@@ -9,17 +9,16 @@
 <body>
 
     <div class="story">
+        <div class="bg">
+            
+        </div>
         <div class="header">
             <h1>Gorilimpíadas</h1>
-            <p>Jogos da Semana</p>
+            <h2>Jogos da Semana</h2>
         </div>
 
         <div class="jogos-container" id="jogos-container">
             <!-- Jogos carregam aqui via JS -->
-        </div>
-
-        <div class="footer">
-            <p>Próximo jogo...</p>
         </div>
     </div>
 
@@ -42,7 +41,8 @@
 
                     div.innerHTML = `
                         <div class="info-top">
-                            <span class="hora">${jogo.hora}</span>
+                            <span class="hora"><span class="dia">${jogo.dia}</span>${jogo.hora}</span>
+                            <img src="${data.esportes[jogo.esporte]}" alt="Bola de ${jogo.esporte}" class="bola">
                             <span class="esporte">${jogo.esporte.toUpperCase()}</span>
                         </div>
                         <div class="times">

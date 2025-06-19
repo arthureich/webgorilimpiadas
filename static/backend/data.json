@@ -209,6 +209,7 @@
       {
         "esporte": "volei",
         "data": "Quarta 18/06",
+        "dia": "Quarta",
         "hora": "23:00",
         "timeA": "Sereias Volei Club",
         "timeB": "Ardigirls"
@@ -216,6 +217,7 @@
       {
         "esporte": "futsal",
         "data": "Quinta 19/06",
+        "dia": "Quinta",
         "hora": "20:00",
         "timeA": "Donos da Bola",
         "timeB": "Funcionários da Bola"
@@ -223,6 +225,7 @@
       {
         "esporte": "futsal",
         "data": "Quinta 19/06",
+        "dia": "Quinta",
         "hora": "22:00",
         "timeA": "Donos da Bola",
         "timeB": "Legio Augusta"
