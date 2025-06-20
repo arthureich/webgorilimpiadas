@@ -92,9 +92,9 @@
             "hora": "20:00",
             "timeA": "Donos da Bola",
             "timeB": "Funcionários da Bola",
-            "resultado": " x ",
-            "golsA": "",
-            "golsB": ""
+            "resultado": "8 x 3",
+            "golsA": "2x Gabriel Bruno, 2x Caio, 2x Guilherme, 1x Arthur, 1x Marcelo",
+            "golsB": "2x Felipe, 1x Alexandre"
         },
         {
             "esporte": "futsal",
@@ -112,11 +112,11 @@
             "grupoA": [
                 {
                     "time": "Donos da Bola",
-                    "jogos": 1,
-                    "vitorias": 1,
+                    "jogos": 2,
+                    "vitorias": 2,
                     "derrotas": 0,
                     "empates": 0,
-                    "pontos": 3
+                    "pontos": 6
                 },
                 {
                     "time": "Legio Augusta",
@@ -128,9 +128,9 @@
                 },
                 {
                     "time": "Funcionários da Bola",
-                    "jogos": 1,
+                    "jogos": 2,
                     "vitorias": 0,
-                    "derrotas": 0,
+                    "derrotas": 1,
                     "empates": 1,
                     "pontos": 1
                 },
@@ -272,7 +272,7 @@
             "gols": [
                 {
                     "jogador": "Arthur Eich - Donos da Bola",
-                    "gols": 2
+                    "gols": 3
                 },
                 {
                     "jogador": "Dante - Não Sabemos Cruzar IV",
@@ -312,11 +312,11 @@
                 },
                 {
                     "jogador": "Guilherme de Paula - Donos da Bola",
-                    "gols": 1
+                    "gols": 3
                 },
                 {
                     "jogador": "Gabriel Bruno - Donos da Bola",
-                    "gols": 1
+                    "gols": 3
                 },
                 {
                     "jogador": "Vinicius - Legendários",
@@ -329,7 +329,15 @@
                 {
                     "jogador": "Vitor Tiozo - Comuna Neres",
                     "gols": 1
-                }
+                },
+                {
+                    "jogador": "Caio Eich - Donos da Bola",
+                    "gols": 2
+                },
+                {
+                    "jogador": "Marcelo Vessaro - Donos da Bola",
+                    "gols": 1
+                },
             ],
             "assistencias": [
                 {
@@ -358,6 +366,10 @@
                 },
                 {
                     "jogador": "Arthur Eich - Donos da Bola",
+                    "assistencias": 6
+                },
+                {
+                    "jogador": "Gabriel Cezimbra - Donos da Bola",
                     "assistencias": 1
                 },
                 {
@@ -494,14 +506,6 @@
         }
     },
     "proximos_jogos": [
-        {
-            "esporte": "futsal",
-            "data": "Quinta 19/06",
-            "dia": "Quinta",
-            "hora": "20:00",
-            "timeA": "Donos da Bola",
-            "timeB": "Funcionários da Bola"
-        },
         {
             "esporte": "futsal",
             "data": "Quinta 19/06",
