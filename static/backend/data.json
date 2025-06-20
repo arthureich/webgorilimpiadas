@@ -540,6 +540,14 @@
             "hora": "16:00",
             "timeA": "Astecas",
             "timeB": "Time em construção (Eterna)"
+        },
+        {
+            "esporte": "futsal",
+            "data": "Sábado 21/06",
+            "dia": "Sábado",
+            "hora": "17:00",
+            "timeA": "Não Sabemos Cruzar IV",
+            "timeB": "Agregados FC"
         }
     ],
     "logos": {
