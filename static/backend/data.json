@@ -122,8 +122,19 @@
             "hora": "16:00",
             "timeA": "Astecas",
             "timeB": "Time em construção (Eterna)",
+            "resultado": " x ",
             "maiorA": "",
             "maiorB": ""
+        },
+        {
+            "esporte": "futsal",
+            "data": "Sábado 21/06",
+            "hora": "17:00",
+            "timeA": "Não Sabemos Cruzar IV",
+            "timeB": "Agregados FC",
+            "resultado": " x ",
+            "golsA": "",
+            "golsB": ""
         }
     ],
     "classificacao": {
