@@ -483,6 +483,7 @@ table tr:hover {
 }
 
 .jogadores p {
+    
     border-bottom: 1px solid rgba(255,255,255,0.2);
     margin: 3px 0;
     font-size: 20px;
@@ -671,7 +672,7 @@ footer p {
     .time {
         opacity: 1;
         width: 100%;
-        padding: 5px;
+        padding: 8px;
         border-radius: 12px;
         box-shadow: 0 4px 8px rgba(0,0,0,0.2);
         transition: transform 0.2s, box-shadow 0.2s;

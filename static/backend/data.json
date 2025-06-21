@@ -584,6 +584,7 @@
     },
     "jogadores_times": [
         {
+            "genero": "masculino",
             "esporte": "futsal",
             "nome": "Donos da Bola",
             "img": "/static/src/ddb.png",
@@ -599,6 +600,7 @@
             ]
         },
         {
+            "genero": "masculino",
             "esporte": "futsal",
             "nome": "Comuna Neres",
             "img": "/static/src/cmn.png",
@@ -616,6 +618,7 @@
             ]
         },
         {
+            "genero": "masculino",
             "esporte": "futsal",
             "nome": "Legendários",
             "img": "/static/src/lgnd.png",
@@ -629,6 +632,7 @@
             ]
         },
         {
+            "genero": "masculino",
             "esporte": "futsal",
             "nome": "Não Sabemos Cruzar IV",
             "img": "/static/src/idv.png",
@@ -642,6 +646,7 @@
             ]
         },
         {
+            "genero": "masculino",
             "esporte": "futsal",
             "nome": "Legio Augusta",
             "img": "/static/src/zmb1.png",
@@ -656,6 +661,7 @@
             ]
         },
         {
+            "genero": "masculino",
             "esporte": "futsal",
             "nome": "Legio Macedonica",
             "img": "/static/src/zmb2.png",
@@ -670,6 +676,7 @@
             ]
         },
         {
+            "genero": "masculino",
             "esporte": "futsal",
             "nome": "Gaviões da Fiel",
             "img": "/static/src/gdf.png",
@@ -684,6 +691,7 @@
             ]
         },
         {
+            "genero": "masculino",
             "esporte": "futsal",
             "nome": "Peixão",
             "img": "/static/src/px.png",
@@ -697,6 +705,7 @@
             ]
         },
         {
+            "genero": "masculino",
             "esporte": "futsal",
             "nome": "Funcionários da Bola",
             "img": "/static/src/unio.png",
@@ -710,6 +719,7 @@
             ]
         },
         {
+            "genero": "masculino",
             "esporte": "futsal",
             "nome": "Agregados FC",
             "img": "/static/src/agregados.png",
@@ -724,45 +734,96 @@
             ]
         },
         {
+            "genero": "masculino",
             "esporte": "volei",
             "nome": "Time em construção (Eterna)",
             "img": "/static/src/idv.png",
             "jogadores": [
-                "Guilherme Reolon",
-                "Vitor Krieser",
-                "Guilherme Altmeyer",
-                "Drage",
-                "Dante",
-                "Igor"
+            "Guilherme Reolon",
+            "Vitor Krieser",
+            "Guilherme Altmeyer",
+            "Vinicius Drage",
+            "Matheus Franck",
+            "Dante",
+            "Igor"
             ]
         },
         {
+            "genero": "masculino",
             "esporte": "volei",
             "nome": "Astecas",
             "img": "/static/src/ast.png",
             "jogadores": [
-                "Mateus Maia",
-                "Lucas Viana",
-                "Thomas",
-                "Fabricio",
-                "Pedro Michalski",
-                "N sei"
+            "Mateus Maia",
+            "Lucas Viana",
+            "Thomas",
+            "Fabricio",
+            "Pedro Michalski",
+            "N sei"
             ]
         },
         {
+            "genero": "masculino",
             "esporte": "volei",
             "nome": "Sokinada",
             "img": "/static/src/logo.png",
             "jogadores": [
-                "Pedro Schreiber",
-                "Ana Schreiber",
-                "Caetano",
-                "Isadora",
-                "Mateus Schreiber",
-                "Mariana"
+            "Pedro Schreiber",
+            "Ana Schreiber",
+            "Caetano",
+            "Isadora",
+            "Mateus Schreiber",
+            "Mariana"
             ]
         },
         {
+            "genero": "feminino",
+            "esporte": "volei",
+            "nome": "Sereias Volei Club",
+            "img": "/static/src/lais.png",
+            "jogadores": [
+            "Lais Viana",
+            "Erica Leticia",
+            "Thaieny Natalia",
+            "Renata Shineider",
+            "Thamiris Portela",
+            "Fernanda Ilheu"
+            ]
+        },
+        {
+            "genero": "feminino",
+            "esporte": "volei",
+            "nome": "Ardigirls",
+            "img": "/static/src/ard.png",
+            "jogadores": [
+            "Dandarah",
+            "Gabrielly Oliveira",
+            "Maria Julia Oselame",
+            "Lavinia Scaravonatti",
+            "Sther Maiuri",
+            "Fernanda Calza",
+            "Sara Maria Ferreira",
+            "Eduarda Siqueira",
+            "Dominik Olympia"
+            ]
+        },
+        {
+            "genero": "feminino",
+            "esporte": "volei",
+            "nome": "Gorigirls",
+            "img": "/static/src/logo.png",
+            "jogadores": [
+            "Giovanna Gonçalves",
+            "Myllena Maria",
+            "Giseli Parreira",
+            "Gabrielly Izzo",
+            "Letícia Maria Grando",
+            "Juliana Grando",
+            "Natalia Vieira"
+            ]
+        },
+        {
+            "genero": "masculino",
             "esporte": "basquete",
             "nome": "Desfalcados & Aleijados",
             "img": "/static/src/glr.png",
@@ -780,6 +841,7 @@
             ]
         },
         {
+            "genero": "masculino",
             "esporte": "basquete",
             "nome": "Chicago Burros",
             "img": "/static/src/cbrr.png",
@@ -795,6 +857,7 @@
             ]
         },
         {
+            "genero": "masculino",
             "esporte": "basquete",
             "nome": "Balançada Tropical",
             "img": "/static/src/blc.png",
@@ -807,6 +870,36 @@
                 "Roger Munra",
                 "Ruan Rubino",
                 "Nathan Oliboni"
+            ]
+        },
+        {
+            "genero": "masculino",
+            "esporte": "handebol",
+            "nome": "Gorila 1",
+            "img": "/static/src/logo.png",
+            "jogadores": [
+                "Arthur Eich",
+                "Erik Castilho",
+                "Guilherme de Paula",
+                "Hidony Miranda",
+                "Caio Eich",
+                "Vozniek",
+                "Jonathan"
+            ]
+        },
+        {
+            "genero": "masculino",
+            "esporte": "handebol",
+            "nome": "Gorila 2",
+            "img": "/static/src/logo.png",
+            "jogadores": [
+                "Matheus Lemes",
+                "Fernando",
+                "João Reolon",
+                "Guilherme Reolon",
+                "Victor Krieser",
+                "Maradona",
+                "Adrian"
             ]
         }
     ]

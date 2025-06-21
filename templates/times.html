@@ -39,8 +39,8 @@
         <!-- Seção dos esportes -->
         <div class="esportes">
             <!-- Cada esporte -->
-            <div class="esporte" id="futebol">
-                <h3>Futebol</h3>
+            <div class="esporte" id="futsal">
+                <h3>Futsal</h3>
                 <div class="times"></div>
             </div>
             <div class="esporte" id="volei">
@@ -60,86 +60,45 @@
     
     <!-- Script -->
     <script>
-    const dados = {
-        "masculino": {
-            "Futebol": [
-                { nome: "Donos da Bola", img: "/static/src/ddb.png", jogadores: ["Arthur Eich", "Guilherme de Paula", "Caio Eich", "Gabriel Cezimbra", "Marcelo Vessaro", "Ricardo Vessaro", "Gabriel dos Santos", "Pedro"] },
-                { nome: "Comuna Neres", img: "/static/src/cmn.png", jogadores: ["Marcelo Muller", "Lucca Neres", "Victor San", "Vitor Tiozo", "Gustavo Orlandini", "Rafael Hoffman", "Andre Henrique", "Pedro Berti", "Duege", "Samuel Agricola"] },
-                { nome: "Legendários", img: "/static/src/lgnd.png", jogadores: ["Pedro Schreiber", "Mateus Schreiber", "Arthur Garcia", "Felipe Lisboa", "Pheterson Bonatto", "Vinicius"] },
-                { nome: "Não Sabemos Cruzar IV", img: "/static/src/idv.png", jogadores: ["Guilherme Reolon", "Vitor Krieser", "Guilherme Altmeyer", "Kauan Campos", "Igor Correia", "Dante"] },
-                { nome: "Legio Augusta", img: "/static/src/zmb1.png", jogadores: ["Zamboni", "Victtor Oliveira", "Yago Pereira", "Vinicius Hermes", "Renan Matheus", "Lucas Santos", "Andre Antunes"] },
-                { nome: "Legio Macedonica", img: "/static/src/zmb2.png", jogadores: ["Gustavo Henrique", "Gabriel Ronchi", "Bruno Pereira", "Felipe Martins", "Fabricio Brum", "Gabriel Miranda", "Gilmar Dotti"] },
-                { nome: "Gaviões da Fiel", img: "/static/src/gdf.png", jogadores: ["Leo Mendes", "Mateus Franck", "Joao Vitor", "Felipe Freitas", "Matheus Rocha", "Diego Alisson", "Marcelo Oliveira"] },
-                { nome: "Peixão", img: "/static/src/px.png", jogadores: ["Guilherme Dalmagro", "Gabriel Ramos", "Erik Castilho", "Rahel Bisão", "Matheus Henrique", "Irmao Matheus"] },
-                { nome: "Funcionários da Bola", img: "/static/src/unio.png", jogadores: ["Fausto", "Alexandre Carissimi", "Paulo Henrique", "Nathan Henrique", "Jean Toillier", "Celso Polinarski"] },
-                { nome: "Agregados FC", img: "/static/src/agregados.png", jogadores: ["Enzo Dino", "Jonatas Queiroz", "Arthur da Croce", "Arthur", "Douglas Henrique", "André"] }
-            ],
-            "Vôlei": [
-                { nome: "Donos da Bola", img: "/static/src/ddb.png", jogadores: ["Arthur Eich", "Guilherme de Paula", "Caio Eich", "Weverton", "Marcelo Vessaro", "Ricardo Vessaro", "Gustavo Orlandini", "Gabriel dos Santos"] },
-                { nome: "Time em construção (Eterna)", img: "/static/src/idv.png", jogadores: ["Guilherme Reolon", "Vitor Krieser", "Guilherme Altmeyer", "Drage", "Dante", "Igor"] },
-                { nome: "Astecas", img: "/static/src/ast.png", jogadores: ["Mateus Maia", "Lucas Viana", "Thomas", "Fabricio", "Pedro Michalski", "N sei"] },
-                { nome: "Sokinada", img: "/static/src/lgnd.png", jogadores: ["Pedro Schreiber", "Ana Schreiber", "Caetano", "Isadora", "Mateus Schreiber", "Mariana"] }
-            ],
-            "Basquete": [
-                { nome: "Donos da Bola", img: "/static/src/ddb.png", jogadores: ["Arthur Eich", "Guilherme de Paula", "Caio Eich", "Weverton", "Marcelo Vessaro", "Ricardo Vessaro", "Eduardo Lebre", "Joao Zonta"] },
-                { nome: "Desfalcados & Aleijados", img: "/static/src/glr.png", jogadores: ["Fabrizio Ilkiu", "Baiano", "Russo", "Iago", "Gehlen", "Ala", "Ronaldo", "João Gabriel", "Castor", "Staub"] },
-                { nome: "Chicago Burros", img: "/static/src/cbrr.png", jogadores: ["Eduardo Vanz", "Zamboni", "Gabriel Angel", "Pedro Primo", "Weverton Krein", "Iorran de Paula", "Marco Antonio", "Matheus Gulak"] },
-                { nome: "Balançada Tropical", img: "/static/src/blc.png", jogadores: ["Gustavo Chiossi", "Eric Barbacha", "Vitor Krieser", "Hidony Miranda", "Thaluan Rafael", "Roger Munra", "Ruan Rubino", "Nathan Oliboni"] }
-            ],
-            "Handebol": [
-                { nome: "Gorila 1", img: "/static/src/logo.png", jogadores: ["Erik", "Guilherme", "Arthur", "Caio", "Hidony", "Vozniek", "Jhonathan"] },
-                { nome: "Gorila 2", img: "/static/src/logo.png", jogadores: ["Matheus Lemes", "Fernando", "Joao Reolon", "Guilherme Reolon", "Vitor Krieser", "Maradona", "Adrian"] }
-            ]
-        },
-        "feminino": {
-            "Futebol": [
-            ],
-            "Vôlei": [
-                { nome: "Sereias Volei Club ", img: "/static/src/lais.png", jogadores: ["Lais Viana", "Erica Leticia", "Thaieny Natalia", "Renata Shineider", "Thamiris Portela", "Fernanda Ilheu"] },
-                { nome: "Ardigirls", img: "/static/src/ard.png", jogadores: ["Dandarah", "Gabrielly Oliveira", "Maria Julia Oselame", "Lavinia Scaravonatti", "Sther Maiuri", "Fernanda Calza", "Sara Maria Ferreira", "Eduarda Siqueira", "Dominik Olympia"] },
-                { nome: "Gorigirls", img: "/static/src/logo.png", jogadores: ["Giovanna Gonçalves", "Myllena Maria", "Giseli Parreira", "Gabrielly Izzo", "Letícia Maria Grando", "Juliana Grando", "Natalia Vieira"] }
-            ],
-            "Basquete": [],
-            "Handebol": [
-            ]
-        }
-    };
-    
-    
     function renderTimes(genero) {
-        const esportes = ["futebol", "volei", "basquete", "handebol"];
-        esportes.forEach(id => {
-            const div = document.querySelector(`#${id} .times`);
-            div.innerHTML = '';
+        fetch('/static/backend/data.json')
+            .then(response => response.json())
+            .then(data => {
+                const esportes = ["futsal", "volei", "basquete", "handebol"];
+
+                esportes.forEach(esporte => {
+                    const container = document.querySelector(`#${esporte} .times`);
+                    container.innerHTML = '';
     
-            const esporteNome = document.querySelector(`#${id} h3`).innerText;
-            const times = dados[genero][esporteNome];
+                    const timesFiltrados = data.jogadores_times.filter(
+                        t => t.esporte === esporte && t.genero === genero
+                    );
+
+                    timesFiltrados.forEach(time => {
+                        const timeDiv = document.createElement('div');
+                        timeDiv.classList.add('time');
     
-            times.forEach(time => {
-                const timeDiv = document.createElement('div');
-                timeDiv.className = 'time';
-    
-                timeDiv.innerHTML = `
-                    <div class="time-header">
-                        <img src="${time.img}" alt="${time.nome}">
-                        <span class="time-nome">${time.nome}</span>
-                    </div>
-                    <div class="jogadores" style="display:none;">
-                        ${time.jogadores.map(j => `<p>${j}</p>`).join('')}
-                    </div>
+                    timeDiv.innerHTML = `
+                        <div class="time-header">
+                            <img src="${time.img}" alt="${time.nome}">
+                            <span class="time-nome">${time.nome}</span>
+                        </div>
+                        <div class="jogadores" style="display:none;">
+                            ${time.jogadores.map(j => `<p>${j}</p>`).join('')}
+                        </div>
                 `;
     
-                timeDiv.querySelector('.time-header').addEventListener('click', () => {
-                    const jogadoresDiv = timeDiv.querySelector('.jogadores');
-                    jogadoresDiv.style.display = jogadoresDiv.style.display === 'none' ? 'block' : 'none';
+                    timeDiv.querySelector('.time-header').addEventListener('click', () => {
+                        const jogadoresDiv = timeDiv.querySelector('.jogadores');
+                        jogadoresDiv.style.display = jogadoresDiv.style.display === 'none' ? 'block' : 'none';
                 });
     
-                div.appendChild(timeDiv);
+                container.appendChild(timeDiv);
             });
         });
-    }
-    
-    
+    })
+    .catch(error => console.error('Erro ao carregar os times:', error));
+}  
     // Inicial
     renderTimes('masculino');
     
