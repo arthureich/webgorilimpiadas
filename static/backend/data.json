@@ -580,10 +580,11 @@
         "Sereias Volei Club": "static/src/lais.png",
         "Ardigirls": "static/src/ard.png",
         "Gorigirls": "static/src/logo.png",
-        "Gorila": "/static/src/glr.png"
+        "Desfalcados & Aleijados": "/static/src/glr.png"
     },
     "jogadores_times": [
         {
+            "esporte": "futsal",
             "nome": "Donos da Bola",
             "img": "/static/src/ddb.png",
             "jogadores": [
@@ -598,6 +599,7 @@
             ]
         },
         {
+            "esporte": "futsal",
             "nome": "Comuna Neres",
             "img": "/static/src/cmn.png",
             "jogadores": [
@@ -614,6 +616,7 @@
             ]
         },
         {
+            "esporte": "futsal",
             "nome": "Legendários",
             "img": "/static/src/lgnd.png",
             "jogadores": [
@@ -626,6 +629,7 @@
             ]
         },
         {
+            "esporte": "futsal",
             "nome": "Não Sabemos Cruzar IV",
             "img": "/static/src/idv.png",
             "jogadores": [
@@ -638,6 +642,7 @@
             ]
         },
         {
+            "esporte": "futsal",
             "nome": "Legio Augusta",
             "img": "/static/src/zmb1.png",
             "jogadores": [
@@ -651,6 +656,7 @@
             ]
         },
         {
+            "esporte": "futsal",
             "nome": "Legio Macedonica",
             "img": "/static/src/zmb2.png",
             "jogadores": [
@@ -664,6 +670,7 @@
             ]
         },
         {
+            "esporte": "futsal",
             "nome": "Gaviões da Fiel",
             "img": "/static/src/gdf.png",
             "jogadores": [
@@ -677,6 +684,7 @@
             ]
         },
         {
+            "esporte": "futsal",
             "nome": "Peixão",
             "img": "/static/src/px.png",
             "jogadores": [
@@ -689,6 +697,7 @@
             ]
         },
         {
+            "esporte": "futsal",
             "nome": "Funcionários da Bola",
             "img": "/static/src/unio.png",
             "jogadores": [
@@ -701,6 +710,7 @@
             ]
         },
         {
+            "esporte": "futsal",
             "nome": "Agregados FC",
             "img": "/static/src/agregados.png",
             "jogadores": [
@@ -714,6 +724,7 @@
             ]
         },
         {
+            "esporte": "volei",
             "nome": "Time em construção (Eterna)",
             "img": "/static/src/idv.png",
             "jogadores": [
@@ -726,6 +737,7 @@
             ]
         },
         {
+            "esporte": "volei",
             "nome": "Astecas",
             "img": "/static/src/ast.png",
             "jogadores": [
@@ -738,6 +750,7 @@
             ]
         },
         {
+            "esporte": "volei",
             "nome": "Sokinada",
             "img": "/static/src/logo.png",
             "jogadores": [
@@ -750,6 +763,7 @@
             ]
         },
         {
+            "esporte": "basquete",
             "nome": "Desfalcados & Aleijados",
             "img": "/static/src/glr.png",
             "jogadores": [
@@ -766,6 +780,7 @@
             ]
         },
         {
+            "esporte": "basquete",
             "nome": "Chicago Burros",
             "img": "/static/src/cbrr.png",
             "jogadores": [
@@ -780,6 +795,7 @@
             ]
         },
         {
+            "esporte": "basquete",
             "nome": "Balançada Tropical",
             "img": "/static/src/blc.png",
             "jogadores": [
