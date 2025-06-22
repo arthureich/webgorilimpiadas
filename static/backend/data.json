@@ -112,7 +112,7 @@
             "hora": "15:00",
             "timeA": "Comuna Neres",
             "timeB": "Agregados FC",
-            "resultado": " x ",
+            "resultado": "3 x 0",
             "golsA": "",
             "golsB": ""
         },
@@ -122,9 +122,9 @@
             "hora": "16:00",
             "timeA": "Astecas",
             "timeB": "Time em construção (Eterna)",
-            "resultado": " x ",
+            "resultado": "2 x 1",
             "maiorA": "",
-            "maiorB": ""
+            "maiorB": "Guilherme Reolon"
         },
         {
             "esporte": "futsal",
@@ -132,9 +132,9 @@
             "hora": "17:00",
             "timeA": "Não Sabemos Cruzar IV",
             "timeB": "Agregados FC",
-            "resultado": " x ",
-            "golsA": "",
-            "golsB": ""
+            "resultado": "8 x 6",
+            "golsA": "5x Dante, 1x Guilherme Reolon, 1x Kauan Campos",
+            "golsB": "2x Pedro Nascimento, 1x Enzo, 1x Douglas Henrique"
         }
     ],
     "classificacao": {
@@ -184,11 +184,11 @@
             "grupoB": [
                 {
                     "time": "Não Sabemos Cruzar IV",
-                    "jogos": 1,
-                    "vitorias": 1,
+                    "jogos": 2,
+                    "vitorias": 2,
                     "derrotas": 0,
                     "empates": 0,
-                    "pontos": 3
+                    "pontos": 6
                 },
                 {
                     "time": "Peixao",
@@ -208,16 +208,16 @@
                 },
                 {
                     "time": "Agregados FC",
-                    "jogos": 0,
+                    "jogos": 2,
                     "vitorias": 0,
-                    "derrotas": 0,
+                    "derrotas": 2,
                     "empates": 0,
                     "pontos": 0
                 },
                 {
                     "time": "Comuna Neres",
-                    "jogos": 1,
-                    "vitorias": 0,
+                    "jogos": 2,
+                    "vitorias": 1,
                     "derrotas": 1,
                     "empates": 0,
                     "pontos": 0
@@ -306,7 +306,7 @@
                 },
                 {
                     "jogador": "Dante - Não Sabemos Cruzar IV",
-                    "gols": 2
+                    "gols": 7
                 },
                 {
                     "jogador": "Pedro Schreiber - Legendários",
@@ -341,6 +341,10 @@
                     "gols": 2
                 },
                 {
+                    "jogador": "Pedro Nascimento - Agregados FC",
+                    "gols": 2
+                },
+                {
                     "jogador": "Guilherme de Paula - Donos da Bola",
                     "gols": 3
                 },
@@ -365,6 +369,14 @@
                     "gols": 3
                 },
                 {
+                    "jogador": "Guilherme Reolon - Não Sabemos Cruzar IV",
+                    "gols": 1
+                },
+                {
+                    "jogador": "Kauan Campos - Não Sabemos Cruzar IV",
+                    "gols": 1
+                },
+                {
                     "jogador": "Marcelo Vessaro - Donos da Bola",
                     "gols": 1
                 }
@@ -380,7 +392,7 @@
                 },
                 {
                     "jogador": "Guilherme Altmeyer - Não Sabemos Cruzar IV",
-                    "assistencias": 2
+                    "assistencias": 3
                 },
                 {
                     "jogador": "Pedro Schreiber - Legendários",
@@ -412,7 +424,7 @@
                 },
                 {
                     "jogador": "Guilherme Reolon - Não Sabemos Cruzar IV",
-                    "assistencias": 1
+                    "assistencias": 2
                 },
                 {
                     "jogador": "Vitor Tiozo - Comuna Neres",
@@ -726,11 +738,13 @@
             "jogadores": [
                 "Enzo Dino",
                 "Jonatas Queiroz",
-                "Bruno",
-                "Victor San",
-                "Victor San",
-                "Victor San",
-                "Victor San"
+                "Arthur",
+                "Andre",
+                "Jonatas",
+                "Douglas Henrique",
+                "Pedro Nascimento",
+                "Pedro Lima",
+                "Arthur da Croce"
             ]
         },
         {
@@ -759,7 +773,7 @@
             "Thomas",
             "Fabricio",
             "Pedro Michalski",
-            "N sei"
+            "Breciani"
             ]
         },
         {
