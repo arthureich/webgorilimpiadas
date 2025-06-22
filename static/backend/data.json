@@ -549,28 +549,28 @@
     },
     "proximos_jogos": [
         {
-            "esporte": "futsal",
-            "data": "Sábado 21/06",
-            "dia": "Sábado",
-            "hora": "15:00",
-            "timeA": "Comuna Neres",
-            "timeB": "Agregados FC"
+            "esporte": "volei",
+            "data": "Domingo 22/06",
+            "dia": "Domingo",
+            "hora": "14:00",
+            "timeA": "Sereias Volei Club",
+            "timeB": "Gorigirls"
+        },
+        {
+            "esporte": "basquete",
+            "data": "Domingo 22/06",
+            "dia": "Domingo",
+            "hora": "17:00",
+            "timeA": "Donos da Bola",
+            "timeB": "Balançada Tropical"
         },
         {
             "esporte": "volei",
-            "data": "Sábado 21/06",
-            "dia": "Sábado",
-            "hora": "16:00",
-            "timeA": "Astecas",
-            "timeB": "Time em construção (Eterna)"
-        },
-        {
-            "esporte": "futsal",
-            "data": "Sábado 21/06",
-            "dia": "Sábado",
-            "hora": "17:00",
-            "timeA": "Não Sabemos Cruzar IV",
-            "timeB": "Agregados FC"
+            "data": "Domingo 22/06",
+            "dia": "Domingo",
+            "hora": "18:00",
+            "timeA": "Donos da Bola",
+            "timeB": "Sokinada"
         }
     ],
     "logos": {
