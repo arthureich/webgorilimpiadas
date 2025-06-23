@@ -135,40 +135,7 @@
             "resultado": "8 x 6",
             "golsA": "5x Dante, 1x Guilherme Reolon, 1x Kauan Campos",
             "golsB": "2x Pedro Nascimento, 1x Enzo, 1x Douglas Henrique"
-        },
-        {
-            "esporte": "volei",
-            "data": "Domingo 22/06",
-            "dia": "Domingo",
-            "hora": "14:00",
-            "timeA": "Sereias Volei Club",
-            "timeB": "Gorigirls",
-            "resultado": " x ",
-            "maiorA": "",
-            "maiorB": ""
-        },
-        {
-            "esporte": "basquete",
-            "data": "Domingo 22/06",
-            "dia": "Domingo",
-            "hora": "17:00",
-            "timeA": "Donos da Bola",
-            "timeB": "Balançada Tropical",
-            "resultado": " x ",
-            "golsA": "",
-            "golsB": ""
-        },
-        {
-            "esporte": "volei",
-            "data": "Domingo 22/06",
-            "dia": "Domingo",
-            "hora": "18:00",
-            "timeA": "Donos da Bola",
-            "timeB": "Sokinada",
-            "resultado": " x ",
-            "maiorA": "",
-            "maiorB": ""
-        }
+        }      
     ],
     "classificacao": {
         "futsal": {
@@ -581,30 +548,6 @@
         }
     },
     "proximos_jogos": [
-        {
-            "esporte": "volei",
-            "data": "Domingo 22/06",
-            "dia": "Domingo",
-            "hora": "14:00",
-            "timeA": "Sereias Volei Club",
-            "timeB": "Gorigirls"
-        },
-        {
-            "esporte": "basquete",
-            "data": "Domingo 22/06",
-            "dia": "Domingo",
-            "hora": "17:00",
-            "timeA": "Donos da Bola",
-            "timeB": "Balançada Tropical"
-        },
-        {
-            "esporte": "volei",
-            "data": "Domingo 22/06",
-            "dia": "Domingo",
-            "hora": "18:00",
-            "timeA": "Donos da Bola",
-            "timeB": "Sokinada"
-        }
     ],
     "logos": {
         "Donos da Bola": "/static/src/ddb.png",
