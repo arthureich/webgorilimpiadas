@@ -28,7 +28,8 @@
         "Quarta 18/06",
         "Quinta 19/06",
         "Sábado 21/06",
-        "Domingo 22/06"
+        "Domingo 22/06",
+        "Quinta 26/06"
     ],
     "esportes": {
         "futsal": "/static/src/FUTSAL-ball.png",
@@ -135,7 +136,27 @@
             "resultado": "8 x 6",
             "golsA": "5x Dante, 1x Guilherme Reolon, 1x Kauan Campos",
             "golsB": "2x Pedro Nascimento, 1x Enzo, 1x Douglas Henrique"
-        }      
+        },
+        {
+            "esporte": "basquete",
+            "data": "Quinta 26/06",
+            "hora": "20:00",
+            "timeA": "Balançada Tropical",
+            "timeB": "Chicago Burros",
+            "resultado": " x ",
+            "maiorA": "",
+            "maiorB": ""
+        },
+        {
+            "esporte": "futsal",
+            "data": "Quinta 26/06",
+            "hora": "22:00",
+            "timeA": "Legio Macedonica",
+            "timeB": "Peixão",
+            "resultado": " x ",
+            "golsA": "",
+            "golsB": ""
+        }
     ],
     "classificacao": {
         "futsal": {
@@ -548,6 +569,28 @@
         }
     },
     "proximos_jogos": [
+        {
+            "esporte": "basquete",
+            "dia": "Quinta",
+            "data": "Quinta 26/06",
+            "hora": "20:00",
+            "timeA": "Balançada Tropical",
+            "timeB": "Chicago Burros",
+            "resultado": " x ",
+            "maiorA": "",
+            "maiorB": ""
+        },
+        {
+            "esporte": "futsal",
+            "dia": "Quinta",
+            "data": "Quinta 26/06",
+            "hora": "22:00",
+            "timeA": "Legio Macedonica",
+            "timeB": "Peixão",
+            "resultado": " x ",
+            "golsA": "",
+            "golsB": ""
+        }
     ],
     "logos": {
         "Donos da Bola": "/static/src/ddb.png",
