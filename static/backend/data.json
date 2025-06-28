@@ -29,7 +29,9 @@
         "Quinta 19/06",
         "Sábado 21/06",
         "Domingo 22/06",
-        "Quinta 26/06"
+        "Quinta 26/06",
+        "Sábado 28/06",
+        "Domingo 29/06"
     ],
     "esportes": {
         "futsal": "/static/src/FUTSAL-ball.png",
@@ -138,16 +140,6 @@
             "golsB": "2x Pedro Nascimento, 1x Enzo, 1x Douglas Henrique"
         },
         {
-            "esporte": "basquete",
-            "data": "Quinta 26/06",
-            "hora": "20:00",
-            "timeA": "Balançada Tropical",
-            "timeB": "Chicago Burros",
-            "resultado": " x ",
-            "maiorA": "",
-            "maiorB": ""
-        },
-        {
             "esporte": "futsal",
             "dia": "Quinta",
             "data": "Quinta 26/06",
@@ -157,6 +149,27 @@
             "resultado": "3 x 4",
             "golsA": "1x Andre, 1x Fabricio, 1x Junior",
             "golsB": "2x Dalmagro, 1x Erik, 1x Gabriel Ramos"
+        },
+        {
+            "esporte": "futsal",
+            "dia": "Sabado",
+            "data": "Sabado 28/06",
+            "hora": "17:00",
+            "timeA": "Funcionários da Bola",
+            "timeB": "Comuna Neres",
+            "resultado": "5 x 1",
+            "golsA": "",
+            "golsB": "1x Pedro Berti"
+        },
+        {
+            "esporte": "basquete",
+            "data": "Domingo 29/06",
+            "hora": "15:00",
+            "timeA": "Donos da Bola",
+            "timeB": "Balançada Tropical",
+            "resultado": " x ",
+            "maiorA": "",
+            "maiorB": ""
         }
     ],
     "classificacao": {
@@ -573,10 +586,10 @@
         {
             "esporte": "basquete",
             "dia": "Quinta",
-            "data": "Quinta 26/06",
-            "hora": "20:00",
-            "timeA": "Balançada Tropical",
-            "timeB": "Chicago Burros",
+            "data": "Domingo 29/06",
+            "hora": "15:00",
+            "timeA": "Donos da Bola",
+            "timeB": "Balançada Tropical",
             "resultado": " x ",
             "maiorA": "",
             "maiorB": ""
