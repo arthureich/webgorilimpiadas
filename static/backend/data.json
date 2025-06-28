@@ -149,13 +149,14 @@
         },
         {
             "esporte": "futsal",
+            "dia": "Quinta",
             "data": "Quinta 26/06",
             "hora": "22:00",
             "timeA": "Legio Macedonica",
             "timeB": "Peixão",
-            "resultado": " x ",
-            "golsA": "",
-            "golsB": ""
+            "resultado": "3 x 4",
+            "golsA": "1x Andre, 1x Fabricio, 1x Junior",
+            "golsB": "2x Dalmagro, 1x Erik, 1x Gabriel Ramos"
         }
     ],
     "classificacao": {
@@ -579,17 +580,6 @@
             "resultado": " x ",
             "maiorA": "",
             "maiorB": ""
-        },
-        {
-            "esporte": "futsal",
-            "dia": "Quinta",
-            "data": "Quinta 26/06",
-            "hora": "22:00",
-            "timeA": "Legio Macedonica",
-            "timeB": "Peixão",
-            "resultado": " x ",
-            "golsA": "",
-            "golsB": ""
         }
     ],
     "logos": {
