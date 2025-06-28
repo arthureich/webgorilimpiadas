@@ -164,85 +164,85 @@
             "grupoA": [
                 {
                   "time": "Donos da Bola",
-                  "jogos": 3,
-                  "vitorias": 3,
+                  "jogos": 4,
+                  "vitorias": 4,
                   "derrotas": 0,
                   "empates": 0,
-                  "pontos": 9
+                  "pontos": 12
                 },
                 {
                     "time": "Legio Augusta",
-                    "jogos": 1,
-                    "vitorias": 0,
+                    "jogos": 2,
+                    "vitorias": 1,
                     "derrotas": 1,
                     "empates": 0,
-                    "pontos": 0
+                    "pontos": 3
                 },
                 {
                     "time": "Funcionários da Bola",
-                    "jogos": 2,
-                    "vitorias": 0,
+                    "jogos": 3,
+                    "vitorias": 1,
                     "derrotas": 1,
                     "empates": 1,
-                    "pontos": 1
+                    "pontos": 4
                 },
                 {
                     "time": "Gaviões da Fiel",
                     "jogos": 0,
                     "vitorias": 0,
-                    "derrotas": 0,
+                    "derrotas": 4,
                     "empates": 0,
                     "pontos": 0
                 },
                 {
                     "time": "Legendários",
-                    "jogos": 2,
-                    "vitorias": 0,
+                    "jogos": 3,
+                    "vitorias": 1,
                     "derrotas": 1,
                     "empates": 1,
-                    "pontos": 1
+                    "pontos": 4
                 }
             ],
             "grupoB": [
                 {
                     "time": "Não Sabemos Cruzar IV",
-                    "jogos": 2,
-                    "vitorias": 2,
+                    "jogos": 3,
+                    "vitorias": 3,
                     "derrotas": 0,
                     "empates": 0,
-                    "pontos": 6
+                    "pontos": 9
                 },
                 {
                     "time": "Peixao",
-                    "jogos": 0,
-                    "vitorias": 0,
+                    "jogos": 1,
+                    "vitorias": 1,
                     "derrotas": 0,
                     "empates": 0,
-                    "pontos": 0
+                    "pontos": 3
                 },
                 {
                     "time": "Legio Macedonica",
-                    "jogos": 0,
+                    "jogos": 4,
                     "vitorias": 0,
-                    "derrotas": 0,
+                    "derrotas": 4,
                     "empates": 0,
                     "pontos": 0
                 },
                 {
                     "time": "Agregados FC",
-                    "jogos": 2,
-                    "vitorias": 0,
+                    "jogos": 3,
+                    "vitorias": 1,
                     "derrotas": 2,
                     "empates": 0,
-                    "pontos": 0
+                    "pontos": 3
                 },
                 {
                     "time": "Comuna Neres",
-                    "jogos": 2,
-                    "vitorias": 1,
+                    "jogos": 3,
+                    "vitorias": 2,
                     "derrotas": 1,
                     "empates": 0,
-                    "pontos": 0
+                    "pontos": 6
                 }
             ]
         },
