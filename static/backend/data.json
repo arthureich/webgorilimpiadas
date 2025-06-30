@@ -162,14 +162,15 @@
             "golsB": "1x Pedro Berti"
         },
         {
-            "esporte": "basquete",
+            "esporte": "futsal",
+            "dia": "Domingo",
             "data": "Domingo 29/06",
-            "hora": "15:00",
+            "hora": "17:00",
             "timeA": "Donos da Bola",
-            "timeB": "Balançada Tropical",
-            "resultado": " x ",
-            "maiorA": "",
-            "maiorB": ""
+            "timeB": "Agregados FC",
+            "resultado": "3 x 1",
+            "golsA": "1x Arthur, 1x Guilherme, 1x Caio",
+            "golsB": "1x "
         }
     ],
     "classificacao": {
@@ -337,7 +338,7 @@
             "gols": [
                 {
                     "jogador": "Arthur Eich - Donos da Bola",
-                    "gols": 3
+                    "gols": 4
                 },
                 {
                     "jogador": "Dante - Não Sabemos Cruzar IV",
@@ -357,15 +358,15 @@
                 },
                 {
                     "jogador": "Alexandre - Funcionários da Bola",
-                    "gols": 2
+                    "gols": 3
                 },
                 {
                     "jogador": "Jean - Funcionários da Bola",
-                    "gols": 1
+                    "gols": 2
                 },
                 {
                     "jogador": "Celso - Funcionários da Bola",
-                    "gols": 1
+                    "gols": 2
                 },
                 {
                     "jogador": "Nathan - Funcionários da Bola",
@@ -376,12 +377,16 @@
                     "gols": 2
                 },
                 {
+                    "jogador": "Pedro Berti - Comuna Neres",
+                    "gols": 1
+                },
+                {
                     "jogador": "Pedro Nascimento - Agregados FC",
                     "gols": 2
                 },
                 {
                     "jogador": "Guilherme de Paula - Donos da Bola",
-                    "gols": 3
+                    "gols": 4
                 },
                 {
                     "jogador": "Gabriel Bruno - Donos da Bola",
@@ -401,7 +406,7 @@
                 },
                 {
                     "jogador": "Caio Eich - Donos da Bola",
-                    "gols": 3
+                    "gols": 4
                 },
                 {
                     "jogador": "Guilherme Reolon - Não Sabemos Cruzar IV",
@@ -419,11 +424,11 @@
             "assistencias": [
                 {
                     "jogador": "Guilherme de Paula - Donos da Bola",
-                    "assistencias": 3
+                    "assistencias": 5
                 },
                 {
                     "jogador": "Caio Eich - Donos da Bola",
-                    "assistencias": 3
+                    "assistencias": 4
                 },
                 {
                     "jogador": "Guilherme Altmeyer - Não Sabemos Cruzar IV",
@@ -583,17 +588,6 @@
         }
     },
     "proximos_jogos": [
-        {
-            "esporte": "basquete",
-            "dia": "Quinta",
-            "data": "Domingo 29/06",
-            "hora": "15:00",
-            "timeA": "Donos da Bola",
-            "timeB": "Balançada Tropical",
-            "resultado": " x ",
-            "maiorA": "",
-            "maiorB": ""
-        }
     ],
     "logos": {
         "Donos da Bola": "/static/src/ddb.png",
