@@ -503,10 +503,6 @@
                     "posicao": 1
                 },
                 {
-                    "dupla": "Ana Lech & Arthur Garcia",
-                    "posicao": 1
-                },
-                {
                     "dupla": "Ana Lech & Eduardo Tosatti",
                     "posicao": 1
                 },
@@ -515,7 +511,7 @@
                     "posicao": 1
                 },
                 {
-                    "dupla": "Laura & Breciani",
+                    "dupla": "Laura & Jacques",
                     "posicao": 1
                 },
                 {
@@ -531,7 +527,11 @@
                     "posicao": 1
                 },
                 {
-                    "dupla": "Vitor Krieser & Natalia",
+                    "dupla": "Breciani & Natalia",
+                    "posicao": 1
+                },
+                {
+                    "dupla": "Thai & Vini",
                     "posicao": 1
                 }
             ],
