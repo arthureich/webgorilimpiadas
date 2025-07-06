@@ -31,7 +31,10 @@
         "Domingo 22/06",
         "Quinta 26/06",
         "Sábado 28/06",
-        "Domingo 29/06"
+        "Domingo 29/06",
+        "Quinta 03/06",
+        "Sábado 05/06",
+        "Domingo 06/06"
     ],
     "esportes": {
         "futsal": "/static/src/FUTSAL-ball.png",
@@ -171,6 +174,92 @@
             "resultado": "3 x 1",
             "golsA": "1x Arthur, 1x Guilherme, 1x Caio",
             "golsB": "1x "
+        },
+        {
+            "esporte": "basquete",
+            "data": "Quinta 03/07",
+            "hora": "20:00",
+            "timeA": "Balaçada Tropical",
+            "timeB": "Aposentados & Aleijados",
+            "resultado": "52 x 51",
+            "maiorA": "",
+            "maiorB": ""
+        },
+        {
+            "esporte": "futsal",
+            "dia": "Sabado",
+            "data": "Sabado 05/07",
+            "hora": "08:40",
+            "timeA": "Legendários",
+            "timeB": "Peixão",
+            "resultado": "4 x 4",
+            "golsA": "4x Bonatto",
+            "golsB": "3x Dalmagro, 1x Matheus"
+        },
+        {
+            "esporte": "volei",
+            "data": "Sabado 05/07",
+            "hora": "09:30",
+            "timeA": "Donos da Bola",
+            "timeB": "Afrontosas",
+            "resultado": "0 x 2",
+            "maiorA": "Weverton",
+            "maiorB": "Caetano"
+        },
+        {
+            "esporte": "futsal",
+            "dia": "Sabado",
+            "data": "Sabado 05/07",
+            "hora": "10:30",
+            "timeA": "Donos da Bola",
+            "timeB": "Funcionários da Bola",
+            "resultado": "3 x 2",
+            "golsA": "2x Caio, 1x Guilherme",
+            "golsB": "1x Alexandre, 1x Celso"
+        },
+        {
+            "esporte": "basquete",
+            "dia": "Sabado",
+            "data": "Sabado 05/07",
+            "hora": "11:30",
+            "timeA": "Donos da Bola",
+            "timeB": "Chicago Burros",
+            "resultado": "32 x 20",
+            "maiorA": "Arthur",
+            "maiorB": "Vanz"
+        },
+        {
+            "esporte": "futsal",
+            "dia": "Sabado",
+            "data": "Sabado 05/07",
+            "hora": "13:00",
+            "timeA": "Legio Augusta",
+            "timeB": "Não Sabemos Cruzar IV",
+            "resultado": "4 x 2",
+            "golsA": "2x Brandalize, 1x Victtor",
+            "golsB": "1x Dante, 1x Reolon"
+        },
+        {
+            "esporte": "volei",
+            "dia": "Sabado",
+            "data": "Sabado 05/07",
+            "hora": "14:00",
+            "timeA": "Astecas",
+            "timeB": "Time em construção (Eterna)",
+            "resultado": "2 x 0",
+            "maiorA": "",
+            "maiorB": ""
+        },
+        {
+            "esporte": "futsal",
+            "dia": "Sabado",
+            "data": "Sabado 05/07",
+            "hora": "15:00",
+            "timeA": "Legio Augusta",
+            "timeB": "Legendários",
+            "resultado": "3 x 5",
+            "golsA": "1x Fabricio, 1x Gustavo, 1x Felipe",
+            "golsB": "2x Bonatto, 2x Douglas"
         }
     ],
     "classificacao": {
@@ -342,11 +431,11 @@
                 },
                 {
                     "jogador": "Dante - Não Sabemos Cruzar IV",
-                    "gols": 7
+                    "gols": 8
                 },
                 {
                     "jogador": "Pedro Schreiber - Legendários",
-                    "gols": 2
+                    "gols": 3
                 },
                 {
                     "jogador": "André - Legendários",
@@ -354,11 +443,19 @@
                 },
                 {
                     "jogador": "Bonatto - Legendários",
-                    "gols": 2
+                    "gols": 7
                 },
                 {
                     "jogador": "Alexandre - Funcionários da Bola",
                     "gols": 3
+                },
+                {
+                    "jogador": "Gustavo - Legio Augusta",
+                    "gols": 1
+                },
+                {
+                    "jogador": "Fabricio - Legio Augusta",
+                    "gols": 1
                 },
                 {
                     "jogador": "Jean - Funcionários da Bola",
@@ -386,7 +483,7 @@
                 },
                 {
                     "jogador": "Guilherme de Paula - Donos da Bola",
-                    "gols": 4
+                    "gols": 5
                 },
                 {
                     "jogador": "Gabriel Bruno - Donos da Bola",
@@ -406,11 +503,11 @@
                 },
                 {
                     "jogador": "Caio Eich - Donos da Bola",
-                    "gols": 4
+                    "gols": 6
                 },
                 {
                     "jogador": "Guilherme Reolon - Não Sabemos Cruzar IV",
-                    "gols": 1
+                    "gols": 2
                 },
                 {
                     "jogador": "Kauan Campos - Não Sabemos Cruzar IV",
@@ -419,6 +516,14 @@
                 {
                     "jogador": "Marcelo Vessaro - Donos da Bola",
                     "gols": 1
+                },
+                {
+                    "jogador": "Guilherme Dalmagro - Peixao",
+                    "gols": 5
+                },
+                {
+                    "jogador": "Matheus - Peixao",
+                    "gols": 2
                 }
             ],
             "assistencias": [
@@ -448,7 +553,11 @@
                 },
                 {
                     "jogador": "Arthur Eich - Donos da Bola",
-                    "assistencias": 6
+                    "assistencias": 8
+                },
+                {
+                    "jogador": "Pedro - Donos da Bola",
+                    "assistencias": 1
                 },
                 {
                     "jogador": "Gabriel Cezimbra - Donos da Bola",
@@ -588,6 +697,28 @@
         }
     },
     "proximos_jogos": [
+        {
+            "esporte": "futsal",
+            "data": "Domingo 05/07",
+            "dia": "Domingo",
+            "hora": "17:00",
+            "timeA": "Donos da Bola",
+            "timeB": "Legendários",
+            "resultado": " x ",
+            "golsA": "",
+            "golsB": ""
+        },
+        {
+            "esporte": "basquete",
+            "data": "Domingo 05/07",
+            "dia": "Domingo",
+            "hora": "18:00",
+            "timeA": "Donos da Bola",
+            "timeB": "Aposentados & Aleijados",
+            "resultado": " x ",
+            "golsA": "",
+            "golsB": ""
+        }
     ],
     "logos": {
         "Donos da Bola": "/static/src/ddb.png",
