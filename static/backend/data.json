@@ -242,7 +242,7 @@
         {
             "esporte": "volei",
             "dia": "Sabado",
-            "data": "Sabado 05/07",
+            "data": "Sábado 05/07",
             "hora": "14:00",
             "timeA": "Astecas",
             "timeB": "Time em construção (Eterna)",
@@ -253,13 +253,35 @@
         {
             "esporte": "futsal",
             "dia": "Sabado",
-            "data": "Sabado 05/07",
+            "data": "Sábado 05/07",
             "hora": "15:00",
             "timeA": "Legio Augusta",
             "timeB": "Legendários",
             "resultado": "3 x 5",
             "golsA": "1x Fabricio, 1x Gustavo, 1x Felipe",
             "golsB": "2x Bonatto, 2x Douglas"
+        }
+        {
+            "esporte": "futsal",
+            "dia": "Domingo",
+            "data": "Domingo 06/07",
+            "hora": "17:00",
+            "timeA": "Donos da Bola",
+            "timeB": "Legendários",
+            "resultado": " x ",
+            "golsA": "",
+            "golsB": ""
+        }
+        {
+            "esporte": "basquete",
+            "dia": "Domingo",
+            "data": "Domingo 06/07",
+            "hora": "18:00",
+            "timeA": "Donos da Bola",
+            "timeB": "Aposentados & Aleijados",
+            "resultado": " x ",
+            "maiorA": "",
+            "maiorB": ""
         }
     ],
     "classificacao": {
