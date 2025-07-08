@@ -268,8 +268,8 @@
             "hora": "17:00",
             "timeA": "Donos da Bola",
             "timeB": "Legendários",
-            "resultado": " x ",
-            "golsA": "",
+            "resultado": "4 x 3",
+            "golsA": "1x Arthur, 1x Dalmagro, 1x Guilherme, 1x Pedro",
             "golsB": ""
         },
         {
@@ -279,9 +279,9 @@
             "hora": "18:00",
             "timeA": "Donos da Bola",
             "timeB": "Aposentados & Aleijados",
-            "resultado": " x ",
-            "maiorA": "",
-            "maiorB": ""
+            "resultado": "37 x 55",
+            "maiorA": "Marcelo",
+            "maiorB": "Yago"
         }
     ],
     "classificacao": {
@@ -723,28 +723,6 @@
         }
     },
     "proximos_jogos": [
-        {
-            "esporte": "futsal",
-            "data": "Domingo 05/07",
-            "dia": "Domingo",
-            "hora": "17:00",
-            "timeA": "Donos da Bola",
-            "timeB": "Legendários",
-            "resultado": " x ",
-            "golsA": "",
-            "golsB": ""
-        },
-        {
-            "esporte": "basquete",
-            "data": "Domingo 05/07",
-            "dia": "Domingo",
-            "hora": "18:00",
-            "timeA": "Donos da Bola",
-            "timeB": "Aposentados & Aleijados",
-            "resultado": " x ",
-            "golsA": "",
-            "golsB": ""
-        }
     ],
     "logos": {
         "Donos da Bola": "/static/src/ddb.png",
